@@ -1,0 +1,162 @@
+
+Lab2:     file format elf32-littlearm
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         000000b2  20000000  20000000  00008000  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .ARM.attributes 00000021  00000000  00000000  000080b2  2**0
+                  CONTENTS, READONLY
+  2 .debug_line   0000009c  00000000  00000000  000080d3  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  3 .debug_info   000000ae  00000000  00000000  0000816f  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  4 .debug_abbrev 00000028  00000000  00000000  0000821d  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_aranges 00000040  00000000  00000000  00008248  2**3
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+20000000 <_start>:
+20000000:	20000800 	.word	0x20000800
+20000004:	20000065 	.word	0x20000065
+
+20000008 <initGPIO>:
+@ Output:
+        .global initGPIO
+        .type   initGPIO, %function
+initGPIO:
+        @ Load GPIO_OUT_BASE address
+		movw r1, #:lower16:GPIO_OUT_BASE
+20000008:	f243 0100 	movw	r1, #12288	; 0x3000
+		movt r1, #:upper16:GPIO_OUT_BASE
+2000000c:	f2c4 0101 	movt	r1, #16385	; 0x4001
+        @ Calculate the GPIOx register address
+		lsl r0, 2
+20000010:	ea4f 0080 	mov.w	r0, r0, lsl #2
+		add r1, r0
+20000014:	4401      	add	r1, r0
+
+        @ Write 1 to config register to set GPIO as output
+		mov r2, #0x1
+20000016:	f04f 0201 	mov.w	r2, #1
+		str r2, [r1, #0]
+2000001a:	600a      	str	r2, [r1, #0]
+		.rept 7   @ repeat block increments address by 4,
+			add r1, #4 @ and configs next GPIO to output
+			str r2, [r1, #0]
+		.endr
+2000001c:	f101 0104 	add.w	r1, r1, #4
+20000020:	600a      	str	r2, [r1, #0]
+20000022:	f101 0104 	add.w	r1, r1, #4
+20000026:	600a      	str	r2, [r1, #0]
+20000028:	f101 0104 	add.w	r1, r1, #4
+2000002c:	600a      	str	r2, [r1, #0]
+2000002e:	f101 0104 	add.w	r1, r1, #4
+20000032:	600a      	str	r2, [r1, #0]
+20000034:	f101 0104 	add.w	r1, r1, #4
+20000038:	600a      	str	r2, [r1, #0]
+2000003a:	f101 0104 	add.w	r1, r1, #4
+2000003e:	600a      	str	r2, [r1, #0]
+20000040:	f101 0104 	add.w	r1, r1, #4
+20000044:	600a      	str	r2, [r1, #0]
+        bx      lr @ Return
+20000046:	4770      	bx	lr
+
+20000048 <setGPIO>:
+@ Output:
+        .global setGPIO
+        .type   setGPIO, %function
+setGPIO:
+        @ Load GPIO_OUT register address
+		movw r1, #:lower16:GPIO_OUT
+20000048:	f243 0188 	movw	r1, #12424	; 0x3088
+		movt r1, #:upper16:GPIO_OUT
+2000004c:	f2c4 0101 	movt	r1, #16385	; 0x4001
+        @ Write 32bit value to GPIO output register
+		str r0, [r1, #0]
+20000050:	6008      	str	r0, [r1, #0]
+
+		mov r2, #1000
+20000052:	f44f 727a 	mov.w	r2, #1000	; 0x3e8
+
+20000056 <delayloop>:
+delayloop:				@  nested loops to add delay
+		mov r3, #1000
+20000056:	f44f 737a 	mov.w	r3, #1000	; 0x3e8
+
+2000005a <delayloop2>:
+delayloop2:
+		subs r3, #1
+2000005a:	3b01      	subs	r3, #1
+		bne delayloop2
+2000005c:	d1fd      	bne.n	2000005a <delayloop2>
+		subs r2, #1
+2000005e:	3a01      	subs	r2, #1
+		bne delayloop
+20000060:	d1f9      	bne.n	20000056 <delayloop>
+        bx	lr  @return
+20000062:	4770      	bx	lr
+
+20000064 <main>:
+        .thumb
+
+        .type    main, %function
+main:
+        @ Load   SYSREG_SOFT_RST_CR address
+        movw     r0, #:lower16:SYSREG_SOFT_RST_CR
+20000064:	f242 0030 	movw	r0, #8240	; 0x2030
+        movt     r0, #:upper16:SYSREG_SOFT_RST_CR
+20000068:	f2ce 0004 	movt	r0, #57348	; 0xe004
+        @ Reset  GPIO hardware
+        ldr      r1, [r0, #0]
+2000006c:	6801      	ldr	r1, [r0, #0]
+        orr      r1, #0x4000
+2000006e:	f441 4180 	orr.w	r1, r1, #16384	; 0x4000
+        str      r1, [r0, #0]
+20000072:	6001      	str	r1, [r0, #0]
+        @ Take GPIO hardware out of reset
+        ldr      r1, [r0, #0]
+20000074:	6801      	ldr	r1, [r0, #0]
+        mvn      r2, #0x4000 @ move bitwise negation of 0x4000 into r2
+20000076:	f46f 4280 	mvn.w	r2, #16384	; 0x4000
+        and      r1, r2
+2000007a:	ea01 0102 	and.w	r1, r1, r2
+        str      r1, [r0, #0]
+2000007e:	6001      	str	r1, [r0, #0]
+
+        mov      r0, #24
+20000080:	f04f 0018 	mov.w	r0, #24
+        bl       initGPIO @ Call initGPIO in gpio.s to initialize GPIO 24
+20000084:	f7ff ffc0 	bl	20000008 <initGPIO>
+
+		mov      r0, #0
+20000088:	f04f 0000 	mov.w	r0, #0
+        bl       setGPIO @ Call setGPIO in gpio.s to write 0 to GPIO output register
+2000008c:	f7ff ffdc 	bl	20000048 <setGPIO>
+
+		mvn 	 r0, #1
+20000090:	f06f 0001 	mvn.w	r0, #1
+		ror 	 r0, #1 @ set r0 to all 1's except for pin 31
+20000094:	ea4f 0070 	mov.w	r0, r0, ror #1
+		add 	 r4, r0, #0  @ r4 is set to all 1's except pin 23
+20000098:	f100 0400 	add.w	r4, r0, #0
+		ror 	 r4, #8 @ r4 is used as reference to known when
+2000009c:	ea4f 2434 	mov.w	r4, r4, ror #8
+
+200000a0 <loop>:
+						@ to reset the zero in r0 back to pin 31
+loop:
+        bl       setGPIO	@ enter setGPIO
+200000a0:	f7ff ffd2 	bl	20000048 <setGPIO>
+        ror 	 r0, #1 @ rotate the all bits right one
+200000a4:	ea4f 0070 	mov.w	r0, r0, ror #1
+        cmp		 r0, r4
+200000a8:	42a0      	cmp	r0, r4
+		bne		 loop
+200000aa:	d1f9      	bne.n	200000a0 <loop>
+		ror		 r0, #23 @ if r0 has low bit on pin 23, rst to pin 31
+200000ac:	ea4f 50f0 	mov.w	r0, r0, ror #23
+        b 		 loop
+200000b0:	e7f6      	b.n	200000a0 <loop>
