@@ -1,0 +1,28 @@
+Target Part: A2F200M3F_FBGA484_-1
+Report for cell ledreg.verilog
+  Core Cell usage:
+              cell count     area count*area
+               GND     1      0.0        0.0
+               VCC     1      0.0        0.0
+
+
+          DFN1E1C0    16      1.0       16.0
+                   -----          ----------
+             TOTAL    18                16.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF    11
+            OUTBUF    16
+                   -----
+             TOTAL    28
+
+
+Core Cells         : 16 of 4608 (0%)
+IO Cells           : 28
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+

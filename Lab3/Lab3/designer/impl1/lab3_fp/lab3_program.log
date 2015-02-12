@@ -1,0 +1,44 @@
+FlashPro
+Version: 10.1.0.14
+Release: v10.1
+
+Software Version: 10.1.0.14
+PDB file 'C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\designer\impl1\lab3_fp\lab3.pdb' has been
+loaded successfully.
+DESIGN : lab3;  CHECKSUM : 280F;  PDB_VERSION : 1.7
+Driver : 3.0.0 build 1
+programmer '56892' : FlashPro3
+Opened 'C:/Users/Kyler/Dropbox/ECE 5780/Lab3/Lab3/designer/impl1/lab3_fp/lab3.pro'
+The 'open_project' command succeeded.
+The 'set_programming_file' command succeeded.
+The 'set_device_type' command succeeded.
+The 'set_device_package' command succeeded.
+Info: Adding Flash Memory data from file C:\Users\Kyler\Dropbox\ECE
+      5780\Lab3\Lab3\component\work\lab3_MSS\MSS_ENVM_0\MSS_ENVM_0.efc.
+Info: Adding FPGA Array data from file C:\Users\Kyler\Dropbox\ECE
+      5780\Lab3\Lab3\designer\impl1\lab3.fdb.
+PDB file 'C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\designer\impl1\lab3_fp\lab3.pdb' has been
+loaded successfully.
+DESIGN : lab3;  CHECKSUM : 9FB1;  PDB_VERSION : 1.7
+The 'update_programming_file' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer '56892' : Scan Chain...
+Warning: programmer '56892' : Vpump has been selected on programmer AND an externally provided
+         Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer '56892' : Scan Chain PASSED.
+programmer '56892' : Executing action PROGRAM
+programmer '56892' : EXPORT FSN[48] = 01064d20b460
+programmer '56892' : Erase ...
+programmer '56892' : Completed erase
+programmer '56892' : Programming FPGA Array
+programmer '56892' : Verifying FPGA Array
+programmer '56892' :         Verifying FPGA Array -- pass
+programmer '56892' : Program System Init and Boot Clients...
+programmer '56892' : Verify System Init and Boot Clients...
+programmer '56892' : Finished: Sun Feb 08 20:58:47 2015 (Elapsed time 00:00:41)
+programmer '56892' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+The 'save_project' command succeeded.

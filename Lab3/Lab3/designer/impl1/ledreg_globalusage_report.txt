@@ -1,0 +1,21 @@
+********************************************************************
+                            Global Usage Report
+********************************************************************
+  
+Product: Designer
+Release: v10.1
+Version: 10.1.0.14
+Date: Fri Feb 06 08:53:12 2015
+Design Name: ledreg  Family: SmartFusion  Die: A2F200M3F  Package: 484 FBGA
+Design State: Post-Layout
+
+The following nets have been routed to a chip global resource:
+
+    Fanout            Name
+    ----------------------
+    16                Net   : clk_c
+                      Driver: clk_pad/U0/U1/U_GL
+
+
+
+

@@ -1,0 +1,12 @@
+----------------------------------------------------------------------
+Report for cell ledreg.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKBUF         1       0.0        0.0
+                           DFN1E1C0        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              INBUF        11       0.0        0.0
+                             OUTBUF        16       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             46                 16.0

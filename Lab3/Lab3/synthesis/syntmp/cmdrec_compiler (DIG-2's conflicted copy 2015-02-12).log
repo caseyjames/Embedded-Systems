@@ -1,0 +1,31 @@
+C:\Microsemi\Libero_v10.1\Synopsys\synplify_F201203MSP1\bin64\c_ver.exe  -prodtype  synplify_pro  -osyn  "C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\synthesis\synwork\lab3_compiler.srs"  -top  lab3  -nram -fixsmult   -divnmod -I "C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\synthesis\"  -I C:\Microsemi\Libero_v10.1\Synopsys\synplify_F201203MSP1\lib  -v2001  -devicelib  C:\Microsemi\Libero_v10.1\Synopsys\synplify_F201203MSP1\lib\proasic\smartfusion.v  -encrypt  -pro  -dmgen  "C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\synthesis\dm"  -ll 2000   -ui -fid2 -ram -sharing on  -autosm -lib work "C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\mss_tshell.v" -lib work "C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v" -lib work "C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\MSS_CCC_0\lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.v" -lib work "C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\lab3_MSS.v" -lib work "C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\hdl\ledreg.v" -lib work "C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\hdl\ledregwrp.v" -lib work "C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\hdl\swreg.v" -lib work "C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\hdl\swregwrp.v" -lib COREAPB3_LIB "C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v" -lib COREAPB3_LIB "C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v" -lib COREAPB3_LIB "C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v" -lib work "C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3\lab3.v" -loga  "C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\synthesis\lab3.srr" 
+rc:1 success:1
+C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\synthesis\synwork\lab3_compiler.srs|o|1423248160|48616
+C:\Microsemi\Libero_v10.1\Synopsys\synplify_F201203MSP1\lib\proasic\smartfusion.v|i|1340037616|72817
+"C:\Users\Kyler\Dropbox\ECE|i|0|0
+5780\Lab3\Lab3\component\work\lab3_MSS\mss_tshell.v"|i|0|0
+"C:\Users\Kyler\Dropbox\ECE|i|0|0
+5780\Lab3\Lab3\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v"|i|0|0
+"C:\Users\Kyler\Dropbox\ECE|i|0|0
+5780\Lab3\Lab3\component\work\lab3_MSS\MSS_CCC_0\lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.v"|i|0|0
+"C:\Users\Kyler\Dropbox\ECE|i|0|0
+5780\Lab3\Lab3\component\work\lab3_MSS\lab3_MSS.v"|i|0|0
+"C:\Users\Kyler\Dropbox\ECE|i|0|0
+5780\Lab3\Lab3\hdl\ledreg.v"|i|0|0
+"C:\Users\Kyler\Dropbox\ECE|i|0|0
+5780\Lab3\Lab3\hdl\ledregwrp.v"|i|0|0
+"C:\Users\Kyler\Dropbox\ECE|i|0|0
+5780\Lab3\Lab3\hdl\swreg.v"|i|0|0
+"C:\Users\Kyler\Dropbox\ECE|i|0|0
+5780\Lab3\Lab3\hdl\swregwrp.v"|i|0|0
+"C:\Users\Kyler\Dropbox\ECE|i|0|0
+5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v"|i|0|0
+"C:\Users\Kyler\Dropbox\ECE|i|0|0
+5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v"|i|0|0
+"C:\Users\Kyler\Dropbox\ECE|i|0|0
+5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v"|i|0|0
+"C:\Users\Kyler\Dropbox\ECE|i|0|0
+5780\Lab3\Lab3\component\work\lab3\lab3.v"|i|0|0
+C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\synthesis\lab3.srr|o|1423248160|18569
+C:\Microsemi\Libero_v10.1\Synopsys\synplify_F201203MSP1\bin64\c_ver.exe|i|1340037506|5529088
+C:\Microsemi\Libero_v10.1\Synopsys\synplify_F201203MSP1\bin\c_ver.exe|i|1340037494|2039808

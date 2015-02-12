@@ -1,0 +1,77 @@
+#--  Synopsys, Inc.
+#--  Version F-2012.03M-SP1 
+#--  Project file C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\synthesis\run_options.txt
+#--  Written on Sun Feb 08 20:54:36 2015
+
+
+#project files
+add_file -verilog "C:/Users/Kyler/Dropbox/ECE 5780/Lab3/Lab3/component/work/lab3_MSS/mss_tshell.v"
+add_file -verilog "C:/Users/Kyler/Dropbox/ECE 5780/Lab3/Lab3/component/Actel/SmartFusionMSS/MSS/2.5.106/mss_comps.v"
+add_file -verilog "C:/Users/Kyler/Dropbox/ECE 5780/Lab3/Lab3/component/work/lab3_MSS/MSS_CCC_0/lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.v"
+add_file -verilog "C:/Users/Kyler/Dropbox/ECE 5780/Lab3/Lab3/component/work/lab3_MSS/lab3_MSS.v"
+add_file -verilog "C:/Users/Kyler/Dropbox/ECE 5780/Lab3/Lab3/hdl/ledreg.v"
+add_file -verilog "C:/Users/Kyler/Dropbox/ECE 5780/Lab3/Lab3/hdl/ledregwrp.v"
+add_file -verilog "C:/Users/Kyler/Dropbox/ECE 5780/Lab3/Lab3/hdl/swreg.v"
+add_file -verilog "C:/Users/Kyler/Dropbox/ECE 5780/Lab3/Lab3/hdl/swregwrp.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/Kyler/Dropbox/ECE 5780/Lab3/Lab3/component/Actel/DirectCore/CoreAPB3/4.0.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/Kyler/Dropbox/ECE 5780/Lab3/Lab3/component/Actel/DirectCore/CoreAPB3/4.0.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/Kyler/Dropbox/ECE 5780/Lab3/Lab3/component/Actel/DirectCore/CoreAPB3/4.0.100/rtl/vlog/core_obfuscated/coreapb3.v"
+add_file -verilog "C:/Users/Kyler/Dropbox/ECE 5780/Lab3/Lab3/component/work/lab3/lab3.v"
+add_file -constraint "C:/Users/Kyler/Dropbox/ECE 5780/Lab3/Lab3/component/work/lab3_MSS/mss_tshell_syn.sdc"
+
+
+#implementation: "synthesis"
+impl -add synthesis -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+
+#device options
+set_option -technology SmartFusion
+set_option -part A2F200M3F
+set_option -package FBGA484
+set_option -speed_grade -1
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+set_option -top_module "lab3"
+
+# mapper_options
+set_option -frequency 100.000
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+# Actel 500K
+set_option -run_prop_extract 1
+set_option -maxfan 24
+set_option -disable_io_insertion 0
+set_option -retiming 0
+set_option -report_path 0
+set_option -opcond COMWC
+set_option -update_models_cp 0
+set_option -preserve_registers 0
+
+# Actel 500K
+set_option -globalthreshold 50
+
+# NFilter
+set_option -popfeed 0
+set_option -constprop 0
+set_option -createhierarchy 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "./lab3.edn"
+impl -active "synthesis"

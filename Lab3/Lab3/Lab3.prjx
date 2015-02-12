@@ -1,0 +1,675 @@
+KEY LIBERO "10.1"
+KEY CAPTURE "10.1.0.14"
+KEY DEFAULT_IMPORT_LOC "D:\Q4_09_project\SmartFusion\Custom_APB\Design\apb_slave_fabric_nw\hdl"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VERILOG"
+KEY VendorTechnology_Family "SmartFusion"
+KEY VendorTechnology_Die "IP4X3M1"
+KEY VendorTechnology_Package "fg484"
+KEY VendorTechnology_Speed "-1"
+KEY VendorTechnology_DieVoltage "1.5"
+KEY VendorTechnology_IO_DEFT_STD "LVTTL"
+KEY VendorTechnology_OPCONR "COM"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3"
+KEY ProjectDescription ""
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "lab3::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST LIBRARIES
+MSS_BFM_LIB
+COREAPB3_LIB
+ENDLIST
+LIST LIBRARY_MSS_BFM_LIB
+ALIAS=..\component\Actel\SmartFusionMSS\MSS\2.5.106\mti\user_verilog\MSS_BFM_LIB
+COMPILE_OPTION=REFRESH_AND_COMPILE
+ENDLIST
+LIST LIBRARY_COREAPB3_LIB
+ALIAS=COREAPB3_LIB
+COMPILE_OPTION=COMPILE
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS\2.5.106\MSS.cxf,actgen_cxf"
+STATE="utd"
+TIME="1423248099"
+SIZE="945"
+PARENT="<project>\component\work\lab3_MSS\lab3_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v,hdl"
+STATE="utd"
+TIME="1422590643"
+SIZE="11243"
+PARENT="<project>\component\Actel\SmartFusionMSS\MSS\2.5.106\MSS.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_ACE\2.2.100\MSS_ACE.cxf,actgen_cxf"
+STATE="utd"
+TIME="1423248090"
+SIZE="252"
+PARENT="<project>\component\work\lab3_MSS\lab3_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_CCC\2.0.106\MSS_CCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1423248091"
+SIZE="252"
+PARENT="<project>\component\work\lab3_MSS\lab3_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_CM3\1.0.200\MSS_CM3.cxf,actgen_cxf"
+STATE="utd"
+TIME="1423248091"
+SIZE="252"
+PARENT="<project>\component\work\lab3_MSS\lab3_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_COM\1.0.200\MSS_COM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1423248091"
+SIZE="252"
+PARENT="<project>\component\work\lab3_MSS\lab3_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_DMA\1.0.101\MSS_DMA.cxf,actgen_cxf"
+STATE="utd"
+TIME="1423248091"
+SIZE="252"
+PARENT="<project>\component\work\lab3_MSS\lab3_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_ENVM\2.3.102\MSS_ENVM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1423248094"
+SIZE="253"
+PARENT="<project>\component\work\lab3_MSS\lab3_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_FIC\1.0.101\MSS_FIC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1423248094"
+SIZE="252"
+PARENT="<project>\component\work\lab3_MSS\lab3_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_FIO\1.0.203\MSS_FIO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1423248094"
+SIZE="252"
+PARENT="<project>\component\work\lab3_MSS\lab3_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_GPIO\1.0.101\MSS_GPIO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1423248094"
+SIZE="253"
+PARENT="<project>\component\work\lab3_MSS\lab3_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_INTR\1.0.101\MSS_INTR.cxf,actgen_cxf"
+STATE="utd"
+TIME="1423248094"
+SIZE="253"
+PARENT="<project>\component\work\lab3_MSS\lab3_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_RESET\1.0.101\MSS_RESET.cxf,actgen_cxf"
+STATE="utd"
+TIME="1423248094"
+SIZE="254"
+PARENT="<project>\component\work\lab3_MSS\lab3_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_RTC\1.0.100\MSS_RTC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1423248094"
+SIZE="252"
+PARENT="<project>\component\work\lab3_MSS\lab3_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_TIMER\1.0.100\MSS_TIMER.cxf,actgen_cxf"
+STATE="utd"
+TIME="1423248094"
+SIZE="254"
+PARENT="<project>\component\work\lab3_MSS\lab3_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_UFROM\1.0.100\MSS_UFROM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1423248094"
+SIZE="254"
+PARENT="<project>\component\work\lab3_MSS\lab3_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_WATCHDOG\1.0.101\MSS_WATCHDOG.cxf,actgen_cxf"
+STATE="utd"
+TIME="1423248094"
+SIZE="257"
+PARENT="<project>\component\work\lab3_MSS\lab3_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf,actgen_cxf"
+STATE="utd"
+TIME="1423235824"
+SIZE="437"
+ENDFILE
+VALUE "<project>\component\work\DESIGN_IO\DESIGN_IO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1423248065"
+SIZE="413"
+ENDFILE
+VALUE "<project>\component\work\lab3\lab3.cxf,actgen_cxf"
+STATE="utd"
+TIME="1423521889"
+SIZE="2461"
+ENDFILE
+VALUE "<project>\component\work\lab3\lab3.pdc,pdc"
+STATE="utd"
+TIME="1423454059"
+SIZE="664"
+PARENT="<project>\component\work\lab3\lab3.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideDESIGNER"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\lab3_MSS\lab3_MSS.cxf,actgen_cxf"
+STATE="utd"
+TIME="1423248099"
+SIZE="11234"
+ENDFILE
+VALUE "<project>\component\work\lab3_MSS\lab3_MSS.pdc,pdc"
+STATE="utd"
+TIME="1423248079"
+SIZE="453"
+PARENT="<project>\component\work\lab3_MSS\lab3_MSS.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideDESIGNER"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\lab3_MSS\lab3_MSS.v,hdl"
+STATE="utd"
+TIME="1423248099"
+SIZE="17904"
+PARENT="<project>\component\work\lab3_MSS\lab3_MSS.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\lab3_MSS\MSS_ACE_0\MSS_ACE_0.log,???"
+STATE="utd"
+TIME="1423248089"
+SIZE="31587"
+PARENT="<project>\component\work\lab3_MSS\lab3_MSS.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\lab3_MSS\MSS_CCC_0\lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1423248091"
+SIZE="483"
+PARENT="<project>\component\work\lab3_MSS\lab3_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\work\lab3_MSS\MSS_CCC_0\lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.v,hdl"
+STATE="utd"
+TIME="1423248091"
+SIZE="2881"
+PARENT="<project>\component\work\lab3_MSS\MSS_CCC_0\lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\lab3_MSS\MSS_ENVM_0\MSS_ENVM_0.efc,efc"
+STATE="utd"
+TIME="1423248094"
+SIZE="15504"
+PARENT="<project>\component\work\lab3_MSS\lab3_MSS.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\lab3_MSS\mss_tshell.v,hdl"
+STATE="utd"
+TIME="1423248094"
+SIZE="12227"
+PARENT="<project>\component\work\lab3_MSS\lab3_MSS.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\lab3_MSS\mss_tshell_syn.sdc,sdc"
+STATE="utd"
+TIME="1423248094"
+SIZE="186"
+PARENT="<project>\component\work\lab3_MSS\lab3_MSS.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\lab3_MSS\testbench.v,tb_hdl"
+STATE="utd"
+TIME="1423248099"
+SIZE="1659"
+PARENT="<project>\component\work\lab3_MSS\lab3_MSS.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\designer\impl1\lab3.adb,adb"
+STATE="ood"
+TIME="1423454240"
+SIZE="323584"
+ENDFILE
+VALUE "<project>\designer\impl1\lab3.fdb,fdb"
+STATE="ood"
+TIME="1423454239"
+SIZE="45545"
+ENDFILE
+VALUE "<project>\designer\impl1\lab3.ide_des,ide_des"
+STATE="utd"
+TIME="1423521889"
+SIZE="1043"
+ENDFILE
+VALUE "<project>\designer\impl1\lab3_compile_log.rpt,log"
+STATE="utd"
+TIME="1423454099"
+SIZE="32822"
+ENDFILE
+VALUE "<project>\designer\impl1\lab3_fp\lab3.pdb,pdb"
+STATE="ood"
+TIME="1423454283"
+SIZE="54272"
+ENDFILE
+VALUE "<project>\designer\impl1\lab3_fp\lab3.pro,pro"
+STATE="utd"
+TIME="1423454329"
+SIZE="1968"
+ENDFILE
+VALUE "<project>\designer\impl1\lab3_fp\projectData\lab3.pdb,pdb"
+STATE="utd"
+TIME="1423454329"
+SIZE="54272"
+ENDFILE
+VALUE "<project>\designer\impl1\lab3_placeroute_log.rpt,log"
+STATE="utd"
+TIME="1423454195"
+SIZE="2370"
+ENDFILE
+VALUE "<project>\designer\impl1\lab3_prgdata_log.rpt,log"
+STATE="utd"
+TIME="1423454241"
+SIZE="779"
+ENDFILE
+VALUE "<project>\designer\impl1\lab3_verifytiming_log.rpt,log"
+STATE="utd"
+TIME="1423454204"
+SIZE="1124"
+ENDFILE
+VALUE "<project>\designer\impl1\ledreg.adb,adb"
+STATE="ood"
+TIME="1423240178"
+SIZE="55296"
+ENDFILE
+VALUE "<project>\designer\impl1\ledreg.fdb,fdb"
+STATE="ood"
+TIME="1423234060"
+SIZE="46174"
+ENDFILE
+VALUE "<project>\designer\impl1\ledreg.ide_des,ide_des"
+STATE="utd"
+TIME="1423240178"
+SIZE="975"
+ENDFILE
+VALUE "<project>\designer\impl1\ledreg_compile_log.rpt,log"
+STATE="utd"
+TIME="1423234001"
+SIZE="8326"
+ENDFILE
+VALUE "<project>\designer\impl1\ledreg_placeroute_log.rpt,log"
+STATE="utd"
+TIME="1423240178"
+SIZE="864"
+ENDFILE
+VALUE "<project>\designer\impl1\ledreg_prgdata_log.rpt,log"
+STATE="utd"
+TIME="1423234061"
+SIZE="669"
+ENDFILE
+VALUE "<project>\designer\impl1\ledreg_verifytiming_log.rpt,log"
+STATE="utd"
+TIME="1423234038"
+SIZE="1140"
+ENDFILE
+VALUE "<project>\designer\impl1\write_only_reg.ide_des,ide_des"
+STATE="utd"
+TIME="1423521890"
+SIZE="207"
+ENDFILE
+VALUE "<project>\designer\impl1\wr_reg_wrp.ide_des,ide_des"
+STATE="utd"
+TIME="1423451364"
+SIZE="203"
+ENDFILE
+VALUE "<project>\hdl\b2u_encoder.v,hdl"
+STATE="utd"
+TIME="1423521617"
+SIZE="657"
+ENDFILE
+VALUE "<project>\hdl\ledreg.v,hdl"
+STATE="utd"
+TIME="1423537878"
+SIZE="1237"
+ENDFILE
+VALUE "<project>\hdl\ledregwrp.v,hdl"
+STATE="utd"
+TIME="1423537893"
+SIZE="1081"
+ENDFILE
+VALUE "<project>\hdl\rd_only_reg.v,hdl"
+STATE="utd"
+TIME="1423539912"
+SIZE="750"
+ENDFILE
+VALUE "<project>\hdl\rd_reg_wrp.v,hdl"
+STATE="utd"
+TIME="1423539912"
+SIZE="894"
+ENDFILE
+VALUE "<project>\hdl\swreg.v,hdl"
+STATE="utd"
+TIME="1423537865"
+SIZE="820"
+ENDFILE
+VALUE "<project>\hdl\swregwrp.v,hdl"
+STATE="utd"
+TIME="1423537866"
+SIZE="1001"
+ENDFILE
+VALUE "<project>\hdl\write_only_reg.v,hdl"
+STATE="utd"
+TIME="1423540360"
+SIZE="684"
+ENDFILE
+VALUE "<project>\hdl\wr_reg_wrp.v,hdl"
+STATE="utd"
+TIME="1423539912"
+SIZE="855"
+ENDFILE
+VALUE "<project>\simulation\CompileDssBfm.tcl,sim"
+STATE="utd"
+TIME="1422590630"
+SIZE="41"
+PARENT="<project>\component\Actel\SmartFusionMSS\MSS\2.5.106\MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\subsystem.bfm,sim"
+STATE="utd"
+TIME="1423454061"
+SIZE="661"
+PARENT="<project>\component\work\lab3\lab3.cxf"
+ENDFILE
+VALUE "<project>\simulation\test.bfm,sim"
+STATE="utd"
+TIME="1423248092"
+SIZE="5461"
+PARENT="<project>\component\work\lab3_MSS\lab3_MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\user.bfm,sim"
+STATE="utd"
+TIME="1423235827"
+SIZE="670"
+PARENT="<project>\component\work\lab3_MSS\lab3_MSS.cxf"
+ENDFILE
+VALUE "<project>\synthesis\lab3.edn,syn_edn"
+STATE="ood"
+TIME="1423454083"
+SIZE="171828"
+ENDFILE
+VALUE "<project>\synthesis\lab3.so,so"
+STATE="utd"
+TIME="1423454083"
+SIZE="219"
+ENDFILE
+VALUE "<project>\synthesis\lab3_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1423454083"
+SIZE="536"
+ENDFILE
+VALUE "<project>\synthesis\ledreg.edn,syn_edn"
+STATE="ood"
+TIME="1423239173"
+SIZE="21953"
+ENDFILE
+VALUE "<project>\synthesis\ledreg.so,so"
+STATE="utd"
+TIME="1423239173"
+SIZE="223"
+ENDFILE
+VALUE "<project>\synthesis\ledreg_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1423239173"
+SIZE="395"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "lab3_MSS::work"
+FILE "<project>\component\work\lab3_MSS\lab3_MSS.v,hdl"
+LIST Other_Association
+VALUE "<project>\component\work\lab3_MSS\mss_tshell_syn.sdc,sdc"
+VALUE "<project>\simulation\user.bfm,sim"
+VALUE "<project>\simulation\test.bfm,sim"
+VALUE "<project>\component\work\lab3_MSS\testbench.v,tb_hdl"
+VALUE "<project>\component\work\lab3_MSS\lab3_MSS.pdc,pdc"
+VALUE "<project>\component\work\lab3_MSS\MSS_ENVM_0\MSS_ENVM_0.efc,efc"
+VALUE "<project>\simulation\CompileDssBfm.tcl,sim"
+ENDLIST
+LIST AssociatedStimulus
+VALUE "<project>\component\work\lab3_MSS\testbench.v,tb_hdl"
+ENDLIST
+LIST SynthesisConstraints
+VALUE "<project>\component\work\lab3_MSS\mss_tshell_syn.sdc,sdc"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST lab3_MSS
+VALUE "<project>\component\work\lab3_MSS\testbench.v,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+LIST lab3_MSS
+VALUE "<project>\component\work\lab3_MSS\mss_tshell_syn.sdc,sdc"
+VALUE "<project>\simulation\user.bfm,sim"
+VALUE "<project>\simulation\test.bfm,sim"
+VALUE "<project>\component\work\lab3_MSS\testbench.v,tb_hdl"
+VALUE "<project>\component\work\lab3_MSS\lab3_MSS.pdc,pdc"
+VALUE "<project>\component\work\lab3_MSS\MSS_ENVM_0\MSS_ENVM_0.efc,efc"
+VALUE "<project>\simulation\CompileDssBfm.tcl,sim"
+ENDLIST
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DumpVCD=false
+VCDFileName=power.vcd
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=TRUE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+FlashProInputFile=fdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="C:\Microsemi\Libero_v10.1\SoftConsole\Eclipse\eclipse.exe"
+PARAM=""
+BATCH=0
+EndProfile
+NAME="Synplify Pro AE"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro AE"
+LOCATION="C:\Microsemi\Libero_v10.1\Synopsys\synplify_F201203MSP1\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+EndProfile
+NAME="ModelSim AE"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="C:\Microsemi\Libero_v10.1\Model\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+EndProfile
+NAME="WFL"
+FUNCTION="Stimulus"
+TOOL="WFL"
+LOCATION="syncad.exe"
+PARAM="-p waveform"
+BATCH=0
+EndProfile
+NAME="FlashPro"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\Microsemi\Libero_v10.1\Designer\bin\FlashPro.exe"
+PARAM=""
+BATCH=0
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "lab3_MSS::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+StartPage;StartPage
+ACTIVEVIEW;StartPage
+ENDLIST
+LIST ModuleSubBlockList
+LIST "b2u_encoder::work","hdl\b2u_encoder.v","FALSE","FALSE"
+ENDLIST
+LIST "BIBUF_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "BIBUF_OPEND_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreAPB3::work","","FALSE","FALSE"
+ENDLIST
+LIST "DESIGN_FIRMWARE::work","component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf","TRUE","FALSE"
+ENDLIST
+LIST "DESIGN_IO::work","component\work\DESIGN_IO\DESIGN_IO.cxf","TRUE","FALSE"
+ENDLIST
+LIST "INBUF_LVDS_MCCC::work","component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "INBUF_LVPECL_MCCC::work","component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "INBUF_MCCC::work","component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "INBUF_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "lab3::work","component\work\lab3\lab3.cxf","TRUE","FALSE"
+SUBBLOCK "CoreAPB3::work","","FALSE","FALSE"
+SUBBLOCK "lab3_MSS::work","component\work\lab3_MSS\lab3_MSS.v","TRUE","FALSE"
+ENDLIST
+LIST "lab3_MSS::work","component\work\lab3_MSS\lab3_MSS.v","TRUE","FALSE"
+SUBBLOCK "MSS_APB::work","component\work\lab3_MSS\mss_tshell.v","FALSE","FALSE"
+SUBBLOCK "lab3_MSS_tmp_MSS_CCC_0_MSS_CCC::work","component\work\lab3_MSS\MSS_CCC_0\lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.v","FALSE","FALSE"
+SUBBLOCK "INBUF_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "lab3_MSS_tmp_MSS_CCC_0_MSS_CCC::work","component\work\lab3_MSS\MSS_CCC_0\lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.v","FALSE","FALSE"
+SUBBLOCK "MSS_CCC::work","component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "ledreg::work","hdl\ledreg.v","FALSE","FALSE"
+ENDLIST
+LIST "ledregwrp::work","hdl\ledregwrp.v","FALSE","FALSE"
+SUBBLOCK "ledreg::work","hdl\ledreg.v","FALSE","FALSE"
+ENDLIST
+LIST "MSS_ALL::work","component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "MSS_APB::work","component\work\lab3_MSS\mss_tshell.v","FALSE","FALSE"
+ENDLIST
+LIST "MSS_CCC::work","component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "MSS_LPXTLOSC::work","component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "MSS_XTLOSC::work","component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "MSSINT::work","component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "OUTBUF_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "rd_only_reg::work","hdl\rd_only_reg.v","FALSE","FALSE"
+ENDLIST
+LIST "rd_reg_wrp::work","hdl\rd_reg_wrp.v","FALSE","FALSE"
+SUBBLOCK "rd_only_reg::work","hdl\rd_only_reg.v","FALSE","FALSE"
+ENDLIST
+LIST "swreg::work","hdl\swreg.v","FALSE","FALSE"
+ENDLIST
+LIST "swregwrp::work","hdl\swregwrp.v","FALSE","FALSE"
+SUBBLOCK "swreg::work","hdl\swreg.v","FALSE","FALSE"
+ENDLIST
+LIST "TRIBUFF_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "wr_reg_wrp::work","hdl\wr_reg_wrp.v","FALSE","FALSE"
+SUBBLOCK "swreg::work","hdl\swreg.v","FALSE","FALSE"
+ENDLIST
+LIST "write_only_reg::work","hdl\write_only_reg.v","FALSE","FALSE"
+ENDLIST
+LIST "testbench::work","component\work\lab3_MSS\testbench.v","FALSE","TRUE"
+SUBBLOCK "lab3_MSS::work","component\work\lab3_MSS\lab3_MSS.v","TRUE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST

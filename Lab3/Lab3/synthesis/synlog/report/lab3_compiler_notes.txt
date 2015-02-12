@@ -1,0 +1,17 @@
+@N|Running in 64-bit mode
+@N: CG364 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v":13:0:13:5|Synthesizing module CAPB3l
+@N: CG364 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Synthesizing module CoreAPB3
+@N: CG364 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\mss_tshell.v":1:7:1:13|Synthesizing module MSS_APB
+@N: CG364 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":151:7:151:13|Synthesizing module MSS_CCC
+@N: CG364 :"C:\Microsemi\Libero_v10.1\Synopsys\synplify_F201203MSP1\lib\proasic\smartfusion.v":2620:7:2620:11|Synthesizing module RCOSC
+@N: CG364 :"C:\Microsemi\Libero_v10.1\Synopsys\synplify_F201203MSP1\lib\proasic\smartfusion.v":1141:7:1141:9|Synthesizing module GND
+@N: CG364 :"C:\Microsemi\Libero_v10.1\Synopsys\synplify_F201203MSP1\lib\proasic\smartfusion.v":1868:7:1868:9|Synthesizing module VCC
+@N: CG364 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\MSS_CCC_0\lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":5:7:5:36|Synthesizing module lab3_MSS_tmp_MSS_CCC_0_MSS_CCC
+@N: CG364 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":23:7:23:15|Synthesizing module INBUF_MSS
+@N: CG364 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\lab3_MSS.v":9:7:9:14|Synthesizing module lab3_MSS
+@N: CG364 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\hdl\ledreg.v":19:7:19:12|Synthesizing module ledreg
+@N: CG364 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\hdl\ledregwrp.v":19:7:19:15|Synthesizing module ledregwrp
+@N: CG364 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\hdl\swreg.v":19:8:19:12|Synthesizing module swreg
+@N: CG364 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\hdl\swregwrp.v":19:7:19:14|Synthesizing module swregwrp
+@N: CG364 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3\lab3.v":9:7:9:10|Synthesizing module lab3
+

@@ -1,0 +1,32 @@
+********************************************************************
+                            Global Net Report
+********************************************************************
+  
+Product: Designer
+Release: v10.1
+Version: 10.1.0.14
+Date: Sun Feb 08 20:56:34 2015
+Design Name: lab3  Family: SmartFusion  Die: A2F200M3F  Package: 484 FBGA
+
+
+Automatic Global Net Placement Result:
+Status: Global net placement completed successfully
+
+
+Global Nets Information:
+
+        |-----------------------------------------------------|
+        |Global Nets         |Loads                           |
+        |-----------------------------------------------------|
+        |Name                |Core      |IO        |RAM       |
+        |-----------------------------------------------------|
+        |FAB_CLK             |       18 |        1 |        0 |
+        |-----------------------------------------------------|
+
+Summary of Global Net Placement:
+
+        |------------------------------------------------------------------------|
+        |Global Net          |Assignment          |Violation                     |
+        |------------------------------------------------------------------------|
+        |FAB_CLK             |MIDDLE_LEFT         |                              |
+        |------------------------------------------------------------------------|

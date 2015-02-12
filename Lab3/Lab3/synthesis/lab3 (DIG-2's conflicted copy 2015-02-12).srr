@@ -1,0 +1,629 @@
+#Build: Synplify Pro F-2012.03M-SP1 , Build 084R, Jun 15 2012
+#install: C:\Microsemi\Libero_v10.1\Synopsys\synplify_F201203MSP1
+#OS: Windows 7 6.2
+#Hostname: KSURFACE
+
+#Implementation: synthesis
+
+$ Start of Compile
+#Fri Feb 06 11:42:39 2015
+
+Synopsys Verilog Compiler, version comp201203rcp1, Build 084R, built Jun 15 2012
+@N|Running in 64-bit mode
+Copyright (C) 1994-2012 Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+
+@I::"C:\Microsemi\Libero_v10.1\Synopsys\synplify_F201203MSP1\lib\proasic\smartfusion.v"
+@I::"C:\Microsemi\Libero_v10.1\Synopsys\synplify_F201203MSP1\lib\vlog\umr_capim.v"
+@I::"C:\Microsemi\Libero_v10.1\Synopsys\synplify_F201203MSP1\lib\vlog\scemi_objects.v"
+@I::"C:\Microsemi\Libero_v10.1\Synopsys\synplify_F201203MSP1\lib\vlog\scemi_pipes.svh"
+@I::"C:\Microsemi\Libero_v10.1\Synopsys\synplify_F201203MSP1\lib\vlog\hypermods.v"
+@I::"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\mss_tshell.v"
+@I::"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v"
+@I::"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\MSS_CCC_0\lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.v"
+@I::"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\lab3_MSS.v"
+@I::"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\hdl\ledreg.v"
+@I::"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\hdl\ledregwrp.v"
+@I::"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\hdl\swreg.v"
+@I::"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\hdl\swregwrp.v"
+@I::"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v"
+@I::"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v"
+@I::"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v"
+@I::"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3\lab3.v"
+Verilog syntax check successful!
+Selecting top level module lab3
+@W: CG775 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Found Component CoreAPB3 in library COREAPB3_LIB
+@N: CG364 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v":13:0:13:5|Synthesizing module CAPB3l
+
+@N: CG364 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Synthesizing module CoreAPB3
+
+	APB_DWIDTH=6'b100000
+	IADDR_OPTION=32'b00000000000000000000000000000000
+	APBSLOT0ENABLE=1'b1
+	APBSLOT1ENABLE=1'b1
+	APBSLOT2ENABLE=1'b0
+	APBSLOT3ENABLE=1'b0
+	APBSLOT4ENABLE=1'b0
+	APBSLOT5ENABLE=1'b0
+	APBSLOT6ENABLE=1'b0
+	APBSLOT7ENABLE=1'b0
+	APBSLOT8ENABLE=1'b0
+	APBSLOT9ENABLE=1'b0
+	APBSLOT10ENABLE=1'b0
+	APBSLOT11ENABLE=1'b0
+	APBSLOT12ENABLE=1'b0
+	APBSLOT13ENABLE=1'b0
+	APBSLOT14ENABLE=1'b0
+	APBSLOT15ENABLE=1'b0
+	SC_0=1'b0
+	SC_1=1'b0
+	SC_2=1'b0
+	SC_3=1'b0
+	SC_4=1'b0
+	SC_5=1'b0
+	SC_6=1'b0
+	SC_7=1'b0
+	SC_8=1'b0
+	SC_9=1'b0
+	SC_10=1'b0
+	SC_11=1'b0
+	SC_12=1'b0
+	SC_13=1'b0
+	SC_14=1'b0
+	SC_15=1'b0
+	MADDR_BITS=6'b001100
+	UPR_NIBBLE_POSN=4'b1000
+	CAPB3I1I=32'b00000000000000000000000000000000
+	CAPB3l1I=32'b00000000000000000000000000000001
+	CAPB3OOl=32'b00000000000000000000000000000010
+	CAPB3IOl=32'b00000000000000000000000000000011
+	CAPB3lOl=32'b00000000000000000000000000000100
+	CAPB3OIl=32'b00000000000000000000000000000101
+	CAPB3IIl=32'b00000000000000000000000000000110
+	CAPB3lIl=32'b00000000000000000000000000000111
+	CAPB3Oll=32'b00000000000000000000000000001000
+	CAPB3Ill=32'b00000000000000000000000000001001
+	CAPB3lll=32'b00000000000000000000000000001010
+	CAPB3O0l=32'b00000000000000000000000000001011
+	CAPB3I0l=32'b00000000000000000000000000001100
+	CAPB3l0l=32'b00000000000000000000000000001101
+	CAPB3O1l=32'b00000000000000000000000000001110
+	CAPB3I1l=32'b00000000000000000000000000001111
+	CAPB3l1l=32'b00000000000000000000000000010000
+	CAPB3OO0=32'b00000000000000000000000000010001
+	CAPB3IO0=16'b0000000000000001
+	CAPB3lO0=16'b0000000000000010
+	CAPB3OI0=16'b0000000000000000
+	CAPB3II0=16'b0000000000000000
+	CAPB3lI0=16'b0000000000000000
+	CAPB3Ol0=16'b0000000000000000
+	CAPB3Il0=16'b0000000000000000
+	CAPB3ll0=16'b0000000000000000
+	CAPB3O00=16'b0000000000000000
+	CAPB3I00=16'b0000000000000000
+	CAPB3l00=16'b0000000000000000
+	CAPB3O10=16'b0000000000000000
+	CAPB3I10=16'b0000000000000000
+	CAPB3l10=16'b0000000000000000
+	CAPB3OO1=16'b0000000000000000
+	CAPB3IO1=16'b0000000000000000
+	CAPB3lO1=16'b0000000000000000
+	CAPB3OI1=16'b0000000000000000
+   Generated name = CoreAPB3_Z1
+
+@W: CG360 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":1477:0:1477:8|No assignment to wire CAPB3lIOI
+
+@N: CG364 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\mss_tshell.v":1:7:1:13|Synthesizing module MSS_APB
+
+@N: CG364 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":151:7:151:13|Synthesizing module MSS_CCC
+
+@N: CG364 :"C:\Microsemi\Libero_v10.1\Synopsys\synplify_F201203MSP1\lib\proasic\smartfusion.v":2620:7:2620:11|Synthesizing module RCOSC
+
+@N: CG364 :"C:\Microsemi\Libero_v10.1\Synopsys\synplify_F201203MSP1\lib\proasic\smartfusion.v":1141:7:1141:9|Synthesizing module GND
+
+@N: CG364 :"C:\Microsemi\Libero_v10.1\Synopsys\synplify_F201203MSP1\lib\proasic\smartfusion.v":1868:7:1868:9|Synthesizing module VCC
+
+@N: CG364 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\MSS_CCC_0\lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":5:7:5:36|Synthesizing module lab3_MSS_tmp_MSS_CCC_0_MSS_CCC
+
+@N: CG364 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":23:7:23:15|Synthesizing module INBUF_MSS
+
+@N: CG364 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\lab3_MSS.v":9:7:9:14|Synthesizing module lab3_MSS
+
+@N: CG364 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\hdl\ledreg.v":19:7:19:12|Synthesizing module ledreg
+
+@N: CG364 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\hdl\ledregwrp.v":19:7:19:15|Synthesizing module ledregwrp
+
+@N: CG364 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\hdl\swreg.v":19:8:19:12|Synthesizing module swreg
+
+@W: CL113 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\hdl\swreg.v":36:0:36:5|Feedback mux created for signal data_out[7:2].
+@W: CL250 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\hdl\swreg.v":36:0:36:5|All reachable assignments to data_out[7:2] assign 0, register removed by optimization
+@N: CG364 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\hdl\swregwrp.v":19:7:19:14|Synthesizing module swregwrp
+
+@W: CG360 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\hdl\swregwrp.v":27:5:27:13|No assignment to wire wr_enable
+
+@N: CG364 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3\lab3.v":9:7:9:10|Synthesizing module lab3
+
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\hdl\swregwrp.v":21:12:21:17|Input PWDATA is unused
+@W: CL157 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\MSS_CCC_0\lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":62:7:62:18|*Output RCOSC_CLKOUT has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\MSS_CCC_0\lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":63:7:63:20|*Output MAINXIN_CLKOUT has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\MSS_CCC_0\lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":64:7:64:18|*Output LPXIN_CLKOUT has undriven bits -- simulation mismatch possible.
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\MSS_CCC_0\lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":36:7:36:10|Input CLKA is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\MSS_CCC_0\lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":37:7:37:14|Input CLKA_PAD is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\MSS_CCC_0\lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":38:7:38:15|Input CLKA_PADP is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\MSS_CCC_0\lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":39:7:39:15|Input CLKA_PADN is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\MSS_CCC_0\lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":40:7:40:10|Input CLKB is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\MSS_CCC_0\lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":41:7:41:14|Input CLKB_PAD is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\MSS_CCC_0\lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":42:7:42:15|Input CLKB_PADP is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\MSS_CCC_0\lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":43:7:43:15|Input CLKB_PADN is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\MSS_CCC_0\lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":44:7:44:10|Input CLKC is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\MSS_CCC_0\lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":45:7:45:14|Input CLKC_PAD is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\MSS_CCC_0\lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":46:7:46:15|Input CLKC_PADP is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\MSS_CCC_0\lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":47:7:47:15|Input CLKC_PADN is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\MSS_CCC_0\lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":48:7:48:13|Input MAINXIN is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\MSS_CCC_0\lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":49:7:49:11|Input LPXIN is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\MSS_CCC_0\lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":50:7:50:13|Input MAC_CLK is unused
+@W: CL246 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":389:0:389:4|Input port bits 31 to 12 of PADDR[31:0] are unused
+
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":378:0:378:4|Input IADDR is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":380:0:380:6|Input PRESETN is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":382:0:382:3|Input PCLK is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":510:0:510:7|Input PRDATAS2 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":517:0:517:7|Input PRDATAS3 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":524:0:524:7|Input PRDATAS4 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":531:0:531:7|Input PRDATAS5 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":538:0:538:7|Input PRDATAS6 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":545:0:545:7|Input PRDATAS7 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":552:0:552:7|Input PRDATAS8 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":559:0:559:7|Input PRDATAS9 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":566:0:566:8|Input PRDATAS10 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":573:0:573:8|Input PRDATAS11 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":580:0:580:8|Input PRDATAS12 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":587:0:587:8|Input PRDATAS13 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":594:0:594:8|Input PRDATAS14 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":601:0:601:8|Input PRDATAS15 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":614:0:614:7|Input PREADYS2 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":616:0:616:7|Input PREADYS3 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":618:0:618:7|Input PREADYS4 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":620:0:620:7|Input PREADYS5 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":622:0:622:7|Input PREADYS6 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":624:0:624:7|Input PREADYS7 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":626:0:626:7|Input PREADYS8 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":628:0:628:7|Input PREADYS9 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":630:0:630:8|Input PREADYS10 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":632:0:632:8|Input PREADYS11 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":634:0:634:8|Input PREADYS12 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":636:0:636:8|Input PREADYS13 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":638:0:638:8|Input PREADYS14 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":640:0:640:8|Input PREADYS15 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":648:0:648:8|Input PSLVERRS2 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":650:0:650:8|Input PSLVERRS3 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":652:0:652:8|Input PSLVERRS4 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":654:0:654:8|Input PSLVERRS5 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":656:0:656:8|Input PSLVERRS6 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":658:0:658:8|Input PSLVERRS7 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":660:0:660:8|Input PSLVERRS8 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":662:0:662:8|Input PSLVERRS9 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":664:0:664:9|Input PSLVERRS10 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":666:0:666:9|Input PSLVERRS11 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":668:0:668:9|Input PSLVERRS12 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":670:0:670:9|Input PSLVERRS13 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":672:0:672:9|Input PSLVERRS14 is unused
+@W: CL159 :"C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v":674:0:674:9|Input PSLVERRS15 is unused
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Feb 06 11:42:40 2015
+
+###########################################################]
+Premap Report
+
+Synopsys Actel Technology Pre-mapping, Version mapact, Build 729R, Built Jun 20 2012 09:47:40
+Copyright (C) 1994-2012, Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+Product Version F-2012.03M-SP1 
+
+Mapper Startup Complete (Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+Reading constraint file: C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\mss_tshell_syn.sdc
+@L: C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\synthesis\lab3_scck.rpt 
+Printing clock  summary report in "C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\synthesis\lab3_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+@N: MF547 |Generated clock conversion disabled 
+
+Design Input Complete (Time elapsed 0h:00m:00s; Memory used current: 93MB peak: 94MB)
+
+
+Mapper Initialization Complete (Time elapsed 0h:00m:00s; Memory used current: 93MB peak: 94MB)
+
+
+
+Clock Summary
+**************
+
+Start       Requested     Requested     Clock        Clock          
+Clock       Frequency     Period        Type         Group          
+--------------------------------------------------------------------
+System      1.0 MHz       1000.000      system       system_clkgroup
+FAB_CLK     25.0 MHz      40.000        declared     clk_group_0    
+FCLK        25.0 MHz      40.000        declared     clk_group_0    
+====================================================================
+
+
+Finished Pre Mapping Phase. (Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 104MB)
+
+@N: BN225 |Writing default property annotation file C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\synthesis\lab3.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Time elapsed 0h:00m:00s; Memory used current: 40MB peak: 104MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Feb 06 11:42:42 2015
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Actel Technology Mapper, Version mapact, Build 729R, Built Jun 20 2012 09:47:40
+Copyright (C) 1994-2012, Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+Product Version F-2012.03M-SP1 
+
+Mapper Startup Complete (Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+@N: MF547 |Generated clock conversion disabled 
+
+Design Input Complete (Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+Mapper Initialization Complete (Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+
+Starting Optimization and Mapping (Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+@W: MO111 :"c:\users\kyler\dropbox\ece 5780\lab3\lab3\component\work\lab3_mss\mss_ccc_0\lab3_mss_tmp_mss_ccc_0_mss_ccc.v":64:7:64:18|Tristate driver LPXIN_CLKOUT on net LPXIN_CLKOUT has its enable tied to GND (module lab3_MSS_tmp_MSS_CCC_0_MSS_CCC) 
+@W: MO111 :"c:\users\kyler\dropbox\ece 5780\lab3\lab3\component\work\lab3_mss\mss_ccc_0\lab3_mss_tmp_mss_ccc_0_mss_ccc.v":63:7:63:20|Tristate driver MAINXIN_CLKOUT on net MAINXIN_CLKOUT has its enable tied to GND (module lab3_MSS_tmp_MSS_CCC_0_MSS_CCC) 
+@W: MO111 :"c:\users\kyler\dropbox\ece 5780\lab3\lab3\component\work\lab3_mss\mss_ccc_0\lab3_mss_tmp_mss_ccc_0_mss_ccc.v":62:7:62:18|Tristate driver RCOSC_CLKOUT on net RCOSC_CLKOUT has its enable tied to GND (module lab3_MSS_tmp_MSS_CCC_0_MSS_CCC) 
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 102MB)
+
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 102MB)
+
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 102MB)
+
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 102MB)
+
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 102MB)
+
+
+Finished preparing to map (Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 102MB)
+
+
+Finished technology mapping (Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished restoring hierarchy (Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+Writing Analyst data base C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\synthesis\lab3.srm
+
+Finished Writing Netlist Databases (Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+Writing EDIF Netlist and constraint files
+F-2012.03M-SP1 
+
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+Found clock FAB_CLK with period 40.00ns 
+Found clock FCLK with period 40.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Feb 06 11:42:44 2015
+#
+
+
+Top view:               lab3
+Library name:           smartfusion
+Operating conditions:   COMWC-1 ( T = 70.0, V = 1.42, P = 1.48, tree_type = balanced_tree )
+Requested Frequency:    25.0 MHz
+Wire load mode:         top
+Wire load model:        smartfusion
+Paths requested:        5
+Constraint File(s):    C:\Users\Kyler\Dropbox\ECE 5780\Lab3\Lab3\component\work\lab3_MSS\mss_tshell_syn.sdc
+                       
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 4.621
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock          
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group          
+------------------------------------------------------------------------------------------------------------------
+FAB_CLK            25.0 MHz      722.4 MHz     40.000        1.384         38.616     declared     clk_group_0    
+FCLK               25.0 MHz      NA            40.000        NA            NA         declared     clk_group_0    
+System             100.0 MHz     185.9 MHz     10.000        5.379         4.621      system       system_clkgroup
+==================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks             |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------
+Starting  Ending   |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------
+System    System   |  10.000      4.621   |  No paths    -      |  No paths    -      |  No paths    -    
+System    FAB_CLK  |  40.000      32.886  |  No paths    -      |  No paths    -      |  No paths    -    
+FAB_CLK   System   |  40.000      37.468  |  No paths    -      |  No paths    -      |  No paths    -    
+FAB_CLK   FAB_CLK  |  40.000      38.616  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: FAB_CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                     Starting                                                               Arrival           
+Instance                             Reference     Type         Pin     Net                                 Time        Slack 
+                                     Clock                                                                                    
+------------------------------------------------------------------------------------------------------------------------------
+swregwrp_0.swreg_0.data_out_1[0]     FAB_CLK       DFN1E1C0     Q       CoreAPB3_0_APBmslave1_PRDATA[0]     0.627       37.468
+swregwrp_0.swreg_0.data_out_1[1]     FAB_CLK       DFN1E1C0     Q       CoreAPB3_0_APBmslave1_PRDATA[1]     0.627       37.468
+ledregwrp_0.ledreg_0.data_out[2]     FAB_CLK       DFN1E1C0     Q       CoreAPB3_0_APBmslave0_PRDATA[2]     0.627       38.292
+ledregwrp_0.ledreg_0.data_out[3]     FAB_CLK       DFN1E1C0     Q       CoreAPB3_0_APBmslave0_PRDATA[3]     0.627       38.292
+ledregwrp_0.ledreg_0.data_out[4]     FAB_CLK       DFN1E1C0     Q       CoreAPB3_0_APBmslave0_PRDATA[4]     0.627       38.292
+ledregwrp_0.ledreg_0.data_out[5]     FAB_CLK       DFN1E1C0     Q       CoreAPB3_0_APBmslave0_PRDATA[5]     0.627       38.292
+ledregwrp_0.ledreg_0.data_out[6]     FAB_CLK       DFN1E1C0     Q       CoreAPB3_0_APBmslave0_PRDATA[6]     0.627       38.292
+ledregwrp_0.ledreg_0.data_out[7]     FAB_CLK       DFN1E1C0     Q       CoreAPB3_0_APBmslave0_PRDATA[7]     0.627       38.292
+ledregwrp_0.ledreg_0.data_out[0]     FAB_CLK       DFN1E1C0     Q       CoreAPB3_0_APBmslave0_PRDATA[0]     0.627       38.317
+ledregwrp_0.ledreg_0.data_out[1]     FAB_CLK       DFN1E1C0     Q       CoreAPB3_0_APBmslave0_PRDATA[1]     0.627       38.317
+==============================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                     Starting                                                                            Required           
+Instance                             Reference     Type         Pin              Net                                     Time         Slack 
+                                     Clock                                                                                                  
+--------------------------------------------------------------------------------------------------------------------------------------------
+lab3_MSS_0.MSS_ADLIB_INST            FAB_CLK       MSS_APB      MSSPRDATA[0]     lab3_MSS_0_MSS_MASTER_APB_PRDATA[0]     40.000       37.468
+lab3_MSS_0.MSS_ADLIB_INST            FAB_CLK       MSS_APB      MSSPRDATA[1]     lab3_MSS_0_MSS_MASTER_APB_PRDATA[1]     40.000       37.468
+lab3_MSS_0.MSS_ADLIB_INST            FAB_CLK       MSS_APB      MSSPRDATA[2]     lab3_MSS_0_MSS_MASTER_APB_PRDATA[2]     40.000       38.292
+lab3_MSS_0.MSS_ADLIB_INST            FAB_CLK       MSS_APB      MSSPRDATA[3]     lab3_MSS_0_MSS_MASTER_APB_PRDATA[3]     40.000       38.292
+lab3_MSS_0.MSS_ADLIB_INST            FAB_CLK       MSS_APB      MSSPRDATA[4]     lab3_MSS_0_MSS_MASTER_APB_PRDATA[4]     40.000       38.292
+lab3_MSS_0.MSS_ADLIB_INST            FAB_CLK       MSS_APB      MSSPRDATA[5]     lab3_MSS_0_MSS_MASTER_APB_PRDATA[5]     40.000       38.292
+lab3_MSS_0.MSS_ADLIB_INST            FAB_CLK       MSS_APB      MSSPRDATA[6]     lab3_MSS_0_MSS_MASTER_APB_PRDATA[6]     40.000       38.292
+lab3_MSS_0.MSS_ADLIB_INST            FAB_CLK       MSS_APB      MSSPRDATA[7]     lab3_MSS_0_MSS_MASTER_APB_PRDATA[7]     40.000       38.292
+ledregwrp_0.ledreg_0.data_out[0]     FAB_CLK       DFN1E1C0     D                LEDCON_c[0]                             39.571       38.616
+ledregwrp_0.ledreg_0.data_out[1]     FAB_CLK       DFN1E1C0     D                LEDCON_c[1]                             39.571       38.616
+============================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      40.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         40.000
+
+    - Propagation time:                      2.532
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 37.468
+
+    Number of logic level(s):                2
+    Starting point:                          swregwrp_0.swreg_0.data_out_1[0] / Q
+    Ending point:                            lab3_MSS_0.MSS_ADLIB_INST / MSSPRDATA[0]
+    The start point is clocked by            FAB_CLK [rising] on pin CLK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                          Pin              Pin               Arrival     No. of    
+Name                                       Type         Name             Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------
+swregwrp_0.swreg_0.data_out_1[0]           DFN1E1C0     Q                Out     0.627     0.627       -         
+CoreAPB3_0_APBmslave1_PRDATA[0]            Net          -                -       0.274     -           1         
+CoreAPB3_0.CAPB3lOII.PRDATA_iv_0_a3[0]     NOR3C        C                In      -         0.901       -         
+CoreAPB3_0.CAPB3lOII.PRDATA_iv_0_a3[0]     NOR3C        Y                Out     0.546     1.446       -         
+N_28                                       Net          -                -       0.274     -           1         
+CoreAPB3_0.CAPB3lOII.PRDATA_iv_0[0]        AO1          C                In      -         1.720       -         
+CoreAPB3_0.CAPB3lOII.PRDATA_iv_0[0]        AO1          Y                Out     0.538     2.258       -         
+lab3_MSS_0_MSS_MASTER_APB_PRDATA[0]        Net          -                -       0.274     -           1         
+lab3_MSS_0.MSS_ADLIB_INST                  MSS_APB      MSSPRDATA[0]     In      -         2.532       -         
+=================================================================================================================
+Total path delay (propagation time + setup) of 2.532 is 1.711(67.6%) logic and 0.821(32.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                              Starting                                                                           Arrival           
+Instance                      Reference     Type        Pin              Net                                     Time        Slack 
+                              Clock                                                                                                
+-----------------------------------------------------------------------------------------------------------------------------------
+lab3_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPSEL          lab3_MSS_0_MSS_MASTER_APB_PSELx         0.000       4.621 
+lab3_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[11]     lab3_MSS_0_MSS_MASTER_APB_PADDR[11]     0.000       4.814 
+lab3_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[10]     lab3_MSS_0_MSS_MASTER_APB_PADDR[10]     0.000       4.827 
+lab3_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[9]      lab3_MSS_0_MSS_MASTER_APB_PADDR[9]      0.000       4.932 
+lab3_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[8]      lab3_MSS_0_MSS_MASTER_APB_PADDR[8]      0.000       6.420 
+lab3_MSS_0.MSS_ADLIB_INST     System        MSS_APB     EMCCLK           MSS_ADLIB_INST_EMCCLK                   0.000       9.726 
+lab3_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPWRITE        TPS_c[1]                                0.000       36.535
+lab3_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPENABLE       TPS_c[3]                                0.000       37.365
+lab3_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPWDATA[0]     CoreAPB3_0_APBmslave0_PWDATA[0]         0.000       39.268
+lab3_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPWDATA[1]     CoreAPB3_0_APBmslave0_PWDATA[1]         0.000       39.268
+===================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                     Starting                                                                            Required           
+Instance                             Reference     Type         Pin              Net                                     Time         Slack 
+                                     Clock                                                                                                  
+--------------------------------------------------------------------------------------------------------------------------------------------
+lab3_MSS_0.MSS_ADLIB_INST            System        MSS_APB      MSSPRDATA[2]     lab3_MSS_0_MSS_MASTER_APB_PRDATA[2]     10.000       4.621 
+lab3_MSS_0.MSS_ADLIB_INST            System        MSS_APB      MSSPRDATA[3]     lab3_MSS_0_MSS_MASTER_APB_PRDATA[3]     10.000       4.621 
+lab3_MSS_0.MSS_ADLIB_INST            System        MSS_APB      MSSPRDATA[4]     lab3_MSS_0_MSS_MASTER_APB_PRDATA[4]     10.000       4.621 
+lab3_MSS_0.MSS_ADLIB_INST            System        MSS_APB      MSSPRDATA[5]     lab3_MSS_0_MSS_MASTER_APB_PRDATA[5]     10.000       4.621 
+lab3_MSS_0.MSS_ADLIB_INST            System        MSS_APB      MSSPRDATA[6]     lab3_MSS_0_MSS_MASTER_APB_PRDATA[6]     10.000       4.621 
+lab3_MSS_0.MSS_ADLIB_INST            System        MSS_APB      MSSPRDATA[7]     lab3_MSS_0_MSS_MASTER_APB_PRDATA[7]     10.000       4.621 
+lab3_MSS_0.MSS_ADLIB_INST            System        MSS_APB      MSSPRDATA[0]     lab3_MSS_0_MSS_MASTER_APB_PRDATA[0]     10.000       4.664 
+lab3_MSS_0.MSS_ADLIB_INST            System        MSS_APB      MSSPRDATA[1]     lab3_MSS_0_MSS_MASTER_APB_PRDATA[1]     10.000       4.664 
+lab3_MSS_0.MSS_ADLIB_INST            System        MSS_APB      EMCCLKRTN        MSS_ADLIB_INST_EMCCLK                   10.000       9.726 
+ledregwrp_0.ledreg_0.data_out[0]     System        DFN1E1C0     E                rd_enable                               39.482       32.886
+============================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.000
+
+    - Propagation time:                      5.379
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     4.621
+
+    Number of logic level(s):                4
+    Starting point:                          lab3_MSS_0.MSS_ADLIB_INST / MSSPSEL
+    Ending point:                            lab3_MSS_0.MSS_ADLIB_INST / MSSPRDATA[2]
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                      Pin              Pin               Arrival     No. of    
+Name                                    Type        Name             Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------
+lab3_MSS_0.MSS_ADLIB_INST               MSS_APB     MSSPSEL          Out     0.000     0.000       -         
+lab3_MSS_0_MSS_MASTER_APB_PSELx         Net         -                -       0.274     -           1         
+CoreAPB3_0.CAPB3O0OI_0_a2_0_0[0]        NOR2A       A                In      -         0.274       -         
+CoreAPB3_0.CAPB3O0OI_0_a2_0_0[0]        NOR2A       Y                Out     0.534     0.808       -         
+CAPB3O0OI_0_a2_0_0[0]                   Net         -                -       0.274     -           1         
+CoreAPB3_0.CAPB3O0OI_0_a2_0[0]          NOR2B       B                In      -         1.081       -         
+CoreAPB3_0.CAPB3O0OI_0_a2_0[0]          NOR2B       Y                Out     0.534     1.615       -         
+N_33                                    Net         -                -       1.007     -           4         
+CoreAPB3_0.CAPB3O0OI_0_a2[0]            NOR2A       A                In      -         2.622       -         
+CoreAPB3_0.CAPB3O0OI_0_a2[0]            NOR2A       Y                Out     0.534     3.156       -         
+TPS_c[2]                                Net         -                -       1.512     -           11        
+CoreAPB3_0.CAPB3lOII.PRDATA_2_0_a3      NOR2B       A                In      -         4.668       -         
+CoreAPB3_0.CAPB3lOII.PRDATA_2_0_a3      NOR2B       Y                Out     0.438     5.105       -         
+lab3_MSS_0_MSS_MASTER_APB_PRDATA[2]     Net         -                -       0.274     -           1         
+lab3_MSS_0.MSS_ADLIB_INST               MSS_APB     MSSPRDATA[2]     In      -         5.379       -         
+=============================================================================================================
+Total path delay (propagation time + setup) of 5.379 is 2.039(37.9%) logic and 3.340(62.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: A2F200M3F_FBGA484_-1
+Report for cell lab3.verilog
+  Core Cell usage:
+              cell count     area count*area
+               AO1     2      1.0        2.0
+               GND     9      0.0        0.0
+           MSS_APB     1      0.0        0.0
+           MSS_CCC     1      0.0        0.0
+              NOR2     1      1.0        1.0
+             NOR2A     3      1.0        3.0
+             NOR2B     7      1.0        7.0
+             NOR3B     1      1.0        1.0
+             NOR3C     3      1.0        3.0
+             RCOSC     1      0.0        0.0
+               VCC     9      0.0        0.0
+
+
+          DFN1E1C0    18      1.0       18.0
+                   -----          ----------
+             TOTAL    56                35.0
+
+
+  IO Cell usage:
+              cell count
+             INBUF     2
+         INBUF_MSS     1
+            OUTBUF    13
+                   -----
+             TOTAL    16
+
+
+Core Cells         : 35 of 4608 (1%)
+IO Cells           : 16
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Time elapsed 0h:00m:00s; Memory used current: 39MB peak: 102MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Feb 06 11:42:44 2015
+
+###########################################################]
