@@ -1,0 +1,96 @@
+<project name="Lab3" version="1.1">
+    <ProjectDirectory>
+        C:/Users/Casey/Documents/Libero Projects/ECE 5780/Lab3/designer/impl1/Lab3_fp
+    </ProjectDirectory>
+    <View>
+        SingleSTAPLView
+    </View>
+    <LiberoTargetDevice>
+        
+    </LiberoTargetDevice>
+    <LogFile>
+        C:/Users/Casey/Documents/Libero Projects/ECE 5780/Lab3/designer/impl1/Lab3_fp/Lab3.log
+    </LogFile>
+    <SerializationOption>
+        Skip
+    </SerializationOption>
+    <programmer status="enable" type="FlashPro3" revision="UndefRev" connection="usb2.0">
+        <name>
+            56841
+        </name>
+        <id>
+            56841
+        </id>
+    </programmer>
+    <configuration>
+        <Hardware>
+            <FlashPro>
+                <TCK>
+                    4000000
+                </TCK>
+                <Vpp/>
+                <Vpn/>
+                <Vddl/>
+                <Vdd>
+2500                </Vdd>
+            </FlashPro>
+            <FlashProLite>
+                <TCK>
+                    4000000
+                </TCK>
+                <Vpp/>
+                <Vpn/>
+            </FlashProLite>
+            <FlashPro3>
+                <TCK>
+                    4000000
+                </TCK>
+                <Vpump/>
+                <ClkMode>
+                    FreeRunningClk
+                </ClkMode>
+            </FlashPro3>
+            <FlashPro4>
+                <TCK>
+                    4000000
+                </TCK>
+                <Vpump/>
+                <ClkMode>
+                    FreeRunningClk
+                </ClkMode>
+            </FlashPro4>
+            <FlashPro5>
+                <TCK>
+                    4000000
+                </TCK>
+                <Vpump/>
+                <ClkMode>
+                    FreeRunningClk
+                </ClkMode>
+            </FlashPro5>
+            <FlashPro5>
+                <TCK>
+                    4000000
+                </TCK>
+                <Vpump/>
+                <ClkMode>
+                    FreeRunningClk
+                </ClkMode>
+                <ProgrammingMode>
+                    JTAGMode
+                </ProgrammingMode>
+            </FlashPro5>
+        </Hardware>
+        <Algo type="PDB">
+            <filename>
+                C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\designer\impl1\Lab3_fp\Lab3.pdb
+            </filename>
+            <local>
+                projectData\Lab3.pdb
+            </local>
+            <SelectedAction>
+                PROGRAM
+            </SelectedAction>
+        </Algo>
+    </configuration>
+</project>

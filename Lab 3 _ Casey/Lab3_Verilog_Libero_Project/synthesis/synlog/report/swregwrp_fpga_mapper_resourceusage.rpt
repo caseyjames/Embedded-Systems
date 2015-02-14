@@ -1,0 +1,29 @@
+Target Part: A2F200M3F_FBGA484_-1
+Report for cell swregwrp.verilog
+  Core Cell usage:
+              cell count     area count*area
+               GND     2      0.0        0.0
+             NOR2A     1      1.0        1.0
+               VCC     2      0.0        0.0
+
+
+          DFN1E1C0     2      1.0        2.0
+                   -----          ----------
+             TOTAL     7                 3.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF     6
+            OUTBUF    15
+                   -----
+             TOTAL    22
+
+
+Core Cells         : 3 of 4608 (0%)
+IO Cells           : 22
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+

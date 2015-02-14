@@ -1,0 +1,67 @@
+
+Lab3:     file format elf32-littlearm
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00000032  20000000  20000000  00008000  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .ARM.attributes 00000021  00000000  00000000  00008032  2**0
+                  CONTENTS, READONLY
+  2 .debug_line   00000045  00000000  00000000  00008053  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  3 .debug_info   00000057  00000000  00000000  00008098  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  4 .debug_abbrev 00000014  00000000  00000000  000080ef  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_aranges 00000020  00000000  00000000  00008108  2**3
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+20000000 <_start>:
+20000000:	20000800 	.word	0x20000800
+20000004:	20000009 	.word	0x20000009
+
+20000008 <main>:
+	.thumb
+
+	.type main, %function
+main:
+	@ Load led register base address
+	movw r0, #:lower16:LEDIO_REG_BASE
+20000008:	f240 0000 	movw	r0, #0
+	movt r0, #:upper16:LEDIO_REG_BASE
+2000000c:	f2c4 0005 	movt	r0, #16389	; 0x4005
+	@ Load switch register base address
+	movw r1, #:lower16:SWIO_REG_BASE
+20000010:	f240 2100 	movw	r1, #512	; 0x200
+	movt r1, #:upper16:SWIO_REG_BASE
+20000014:	f2c4 0105 	movt	r1, #16389	; 0x4005
+	@ Load write-only to decoder register base address
+	movw r2, #:lower16:WDEC_REG_BASE
+20000018:	f240 3200 	movw	r2, #768	; 0x300
+	movt r2, #:upper16:WDEC_REG_BASE
+2000001c:	f2c4 0205 	movt	r2, #16389	; 0x4005
+	@ Load read-only registers from decoder
+	movw r3, #:lower16:RDEC_REG_BASE
+20000020:	f240 1300 	movw	r3, #256	; 0x100
+	movt r3, #:upper16:RDEC_REG_BASE
+20000024:	f2c4 0305 	movt	r3, #16389	; 0x4005
+
+20000028 <loop>:
+
+loop:
+	@ Read switch register
+	ldr r4, [r1, #0]
+20000028:	680c      	ldr	r4, [r1, #0]
+	@ Write switch values to decoder register
+	str r4, [r2, #0]
+2000002a:	6014      	str	r4, [r2, #0]
+	@ Read decoder registers
+	ldr r5, [r3, #0]
+2000002c:	681d      	ldr	r5, [r3, #0]
+	@ write decoder values to led registers
+	str r5, [r0, #0]
+2000002e:	6005      	str	r5, [r0, #0]
+b loop
+20000030:	e7fa      	b.n	20000028 <loop>

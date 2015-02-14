@@ -1,0 +1,5 @@
+@W: CL113 :"C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\hdl\swreg.v":18:0:18:5|Feedback mux created for signal data_out[7:2].
+@W: CL250 :"C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\hdl\swreg.v":18:0:18:5|All reachable assignments to data_out[7:2] assign 0, register removed by optimization
+@W: CG360 :"C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\hdl\swregwrp.v":23:5:23:13|No assignment to wire wr_enable
+@W: CL159 :"C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\hdl\swregwrp.v":16:12:16:17|Input PWDATA is unused
+

@@ -1,0 +1,4 @@
+@N|Running in 64-bit mode
+@N: CG364 :"C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\hdl\swreg.v":2:7:2:11|Synthesizing module swreg
+@N: CG364 :"C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\hdl\swregwrp.v":2:7:2:14|Synthesizing module swregwrp
+

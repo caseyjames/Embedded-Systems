@@ -1,0 +1,22 @@
+#OPTIONS:"|-top|swregwrp|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|C:\\Users\\Casey\\Documents\\Libero Projects\\ECE 5780\\Lab3\\synthesis\\|-I|C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\lib\\proasic\\smartfusion.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\bin64\\c_ver.exe":1412914578
+#CUR:"C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\lib\\proasic\\smartfusion.v":1412958462
+#CUR:"C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\lib\\vlog\\umr_capim.v":1412914498
+#CUR:"C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\lib\\vlog\\scemi_objects.v":1412914244
+#CUR:"C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\lib\\vlog\\scemi_pipes.svh":1412914244
+#CUR:"C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\lib\\vlog\\hypermods.v":1412914244
+#CUR:"C:\\Users\\Casey\\Documents\\Libero Projects\\ECE 5780\\Lab3\\hdl\\swreg.v":1423835799
+#CUR:"C:\\Users\\Casey\\Documents\\Libero Projects\\ECE 5780\\Lab3\\hdl\\swregwrp.v":1423835660
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\hdl\swreg.v" verilog
+1			"C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\hdl\swregwrp.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 0
+#Dependency Lists(Users Of)
+0 1
+1 -1
+#Design Unit to File Association
+module work swreg 0
+module work swregwrp 1

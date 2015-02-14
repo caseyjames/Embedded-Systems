@@ -1,0 +1,7 @@
+C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin64\syn_nfilter.exe  -link  -top  Lab3  -multisrs  "C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\synthesis\synwork\Lab3_comp.srs"  -osyn  "C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\synthesis\synwork\Lab3_mult.srs"  -log  "C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\synthesis\synlog\Lab3_multi_srs_gen.srr" 
+rc:0 success:1
+C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\synthesis\synwork\Lab3_comp.srs|i|1423899420|54785
+C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\synthesis\synwork\Lab3_mult.srs|o|1423899421|12303
+C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\synthesis\synlog\Lab3_multi_srs_gen.srr|o|1423899421|492
+C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin\syn_nfilter.exe|i|1412914462|2743296
+C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin64\syn_nfilter.exe|i|1412914656|6340608

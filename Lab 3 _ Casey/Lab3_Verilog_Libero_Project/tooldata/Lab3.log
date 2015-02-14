@@ -1,0 +1,16 @@
+Project Name: Lab3
+Location: C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : A2F200M3F-1FG484
+Family         : SmartFusion
+Die            : A2F200M3F
+Package        : 484 FBGA
+Speed          : -1
+Core Voltage   : 1.5
+Range          : COM

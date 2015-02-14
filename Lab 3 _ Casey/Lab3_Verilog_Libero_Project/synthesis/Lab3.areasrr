@@ -1,0 +1,167 @@
+----------------------------------------------------------------------
+Report for cell Lab3.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                        CoreAPB3_Z1         1      24.0       24.0
+                                GND         1       0.0        0.0
+                              INBUF         2       0.0        0.0
+                           Lab3_MSS         1       0.0        0.0
+                             OUTBUF        13       0.0        0.0
+                                VCC         1       0.0        0.0
+                          ledregwrp         1      19.0       19.0
+                          mydecoder         1       4.0        4.0
+                           roregwrp         1       5.0        5.0
+                           swregwrp         1       4.0        4.0
+                           woregwrp         1       5.0        5.0
+                            
+                         TOTAL             24                 61.0
+----------------------------------------------------------------------
+Report for cell woregwrp.netlist
+     Instance path:  woregwrp_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                              NOR2B         2       1.0        2.0
+                              NOR3B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                              woreg         1       2.0        2.0
+                            
+                         TOTAL              6                  5.0
+----------------------------------------------------------------------
+Report for cell woreg.netlist
+     Instance path:  woregwrp_0.woreg_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                           DFN1E1C0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              4                  2.0
+----------------------------------------------------------------------
+Report for cell swregwrp.netlist
+     Instance path:  swregwrp_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                              NOR2A         1       1.0        1.0
+                              NOR3A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                              swreg         1       2.0        2.0
+                            
+                         TOTAL              5                  4.0
+----------------------------------------------------------------------
+Report for cell swreg.netlist
+     Instance path:  swregwrp_0.swreg_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                           DFN1E1C0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              4                  2.0
+----------------------------------------------------------------------
+Report for cell roregwrp.netlist
+     Instance path:  roregwrp_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                              NOR2A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                              roreg         1       4.0        4.0
+                            
+                         TOTAL              4                  5.0
+----------------------------------------------------------------------
+Report for cell roreg.netlist
+     Instance path:  roregwrp_0.roreg_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                           DFN1E1P0         4       1.0        4.0
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              6                  4.0
+----------------------------------------------------------------------
+Report for cell mydecoder.netlist
+     Instance path:  mydecoder_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                                OR2         1       1.0        1.0
+                               OR2A         2       1.0        2.0
+                               OR2B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              6                  4.0
+----------------------------------------------------------------------
+Report for cell ledregwrp.netlist
+     Instance path:  ledregwrp_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                              NOR2A         1       1.0        1.0
+                               NOR3         1       1.0        1.0
+                              NOR3B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                             ledreg         1      16.0       16.0
+                            
+                         TOTAL              6                 19.0
+----------------------------------------------------------------------
+Report for cell ledreg.netlist
+     Instance path:  ledregwrp_0.ledreg_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                           DFN1E1C0        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             18                 16.0
+----------------------------------------------------------------------
+Report for cell Lab3_MSS.netlist
+     Instance path:  Lab3_MSS_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                          INBUF_MSS         1       0.0        0.0
+          Lab3_MSS_tmp_MSS_CCC_0_MSS_CCC         1       0.0        0.0
+                            MSS_APB         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              5                  0.0
+----------------------------------------------------------------------
+Report for cell Lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.netlist
+     Instance path:  Lab3_MSS_0.MSS_CCC_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                            MSS_CCC         1       0.0        0.0
+                              RCOSC         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              4                  0.0
+----------------------------------------------------------------------
+Report for cell CoreAPB3_Z1.netlist
+     Instance path:  CoreAPB3_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CAPB3l         1      23.0       23.0
+                                GND         1       0.0        0.0
+                              NOR2A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              4                 24.0
+----------------------------------------------------------------------
+Report for cell CAPB3l.netlist
+     Instance path:  CoreAPB3_0.CAPB3lOII
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1A         2       1.0        2.0
+                                GND         1       0.0        0.0
+                                MX2         2       1.0        2.0
+                               NOR2         8       1.0        8.0
+                              NOR2A         4       1.0        4.0
+                               NOR3         4       1.0        4.0
+                                OR2         2       1.0        2.0
+                               OR3A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             25                 23.0

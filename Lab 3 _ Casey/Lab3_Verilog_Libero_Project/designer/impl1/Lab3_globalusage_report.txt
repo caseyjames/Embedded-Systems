@@ -1,0 +1,21 @@
+********************************************************************
+                            Global Usage Report
+********************************************************************
+  
+Product: Designer
+Release: v11.5
+Version: 11.5.0.26
+Date: Sat Feb 14 00:58:55 2015
+Design Name: Lab3  Family: SmartFusion  Die: A2F200M3F  Package: 484 FBGA
+Design State: Post-Layout
+
+The following nets have been routed to a chip global resource:
+
+    Fanout            Name
+    ----------------------
+    26                Net   : FAB_CLK
+                      Driver: Lab3_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2
+
+
+
+

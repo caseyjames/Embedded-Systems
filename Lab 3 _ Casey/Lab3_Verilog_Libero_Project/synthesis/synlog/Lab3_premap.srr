@@ -1,0 +1,39 @@
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 1346R, Built Oct 10 2014 11:20:09
+Copyright (C) 1994-2014, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version I-2014.03M-SP1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+Reading constraint file: C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\component\work\Lab3_MSS\mss_tshell_syn.sdc
+@L: C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\synthesis\Lab3_scck.rpt 
+Printing clock  summary report in "C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\synthesis\Lab3_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 105MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 105MB)
+
+
+
+@S |Clock Summary
+****************
+
+Start       Requested     Requested     Clock        Clock      
+Clock       Frequency     Period        Type         Group      
+----------------------------------------------------------------
+FAB_CLK     25.0 MHz      40.000        declared     clk_group_0
+FCLK        25.0 MHz      40.000        declared     clk_group_0
+================================================================
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\synthesis\Lab3.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 49MB peak: 114MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Feb 14 00:37:01 2015
+
+###########################################################]

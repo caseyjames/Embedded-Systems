@@ -1,0 +1,14 @@
+C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  "C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\synthesis"   -part A2F200M3F  -package FBGA484  -grade -1    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 0 -RWCheckOnRam 0 -summaryfile "C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\synthesis\synlog\report\Lab3_premap.xml"  -top_level_module  Lab3  -oedif  "C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\synthesis\Lab3.edn"  -conchk_prepass  "C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\synthesis\Lab3_cck_prepass.rpt"   -freq 100.000   -tcl  "C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\component\work\Lab3_MSS\mss_tshell_syn.sdc"  "C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\synthesis\synwork\Lab3_mult.srs"  -flow prepass  -gcc_prepass  -osrd  "C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\synthesis\synwork\Lab3_prem.srd"  -qsap  "C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\synthesis\Lab3.sap"  -devicelib  C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v  -ologparam  "C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\synthesis\syntmp\Lab3.plg"  -osyn  "C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\synthesis\synwork\Lab3_prem.srd"  -prjdir  "C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\synthesis\"  -prjname  Lab3_syn  -log  "C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\synthesis\synlog\Lab3_premap.srr" 
+rc:0 success:1
+C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\synthesis\Lab3.edn|o|1423886157|167260
+C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\synthesis\Lab3_cck_prepass.rpt|o|0|0
+C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\component\work\Lab3_MSS\mss_tshell_syn.sdc|i|1423899345|186
+C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\synthesis\synwork\Lab3_mult.srs|i|1423899421|12303
+C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\synthesis\synwork\Lab3_prem.srd|o|1423899421|49111
+C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\synthesis\Lab3.sap|o|1423899421|3125
+C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v|i|1412958462|72817
+"C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\synthesis\syntmp\Lab3.plg"|o|0|0
+C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\synthesis\synwork\Lab3_prem.srd|o|1423899421|49111
+C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\synthesis\synlog\Lab3_premap.srr|o|1423899421|2151
+C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin\m_proasic.exe|i|1412959426|12576768
+C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin64\m_proasic.exe|i|1412961616|15337984

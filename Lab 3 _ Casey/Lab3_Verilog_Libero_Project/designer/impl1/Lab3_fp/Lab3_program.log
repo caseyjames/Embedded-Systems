@@ -1,0 +1,47 @@
+FlashPro
+Version: 11.5.0.26
+Release: v11.5
+
+Software Version: 11.5.0.26
+PDB file 'C:\Users\Casey\Documents\Libero Projects\ECE
+5780\Lab3\designer\impl1\Lab3_fp\Lab3.pdb' has been loaded successfully.
+DESIGN : Lab3;  CHECKSUM : 9779;  PDB_VERSION : 1.9
+Driver : 3.0.0 build 1
+programmer '56841' : FlashPro3
+Opened 'C:/Users/Casey/Documents/Libero Projects/ECE 5780/Lab3/designer/impl1/Lab3_fp/Lab3.pro'
+The 'open_project' command succeeded.
+The 'set_programming_file' command succeeded.
+The 'set_device_type' command succeeded.
+The 'set_device_package' command succeeded.
+Info: Adding Flash Memory data from file C:\Users\Casey\Documents\Libero Projects\ECE
+      5780\Lab3\component\work\Lab3_MSS\MSS_ENVM_0\MSS_ENVM_0.efc.
+Info: Adding FPGA Array data from file C:\Users\Casey\Documents\Libero Projects\ECE
+      5780\Lab3\designer\impl1\Lab3.fdb.
+PDB file 'C:\Users\Casey\Documents\Libero Projects\ECE
+5780\Lab3\designer\impl1\Lab3_fp\Lab3.pdb' has been loaded successfully.
+DESIGN : Lab3;  CHECKSUM : 4A82;  PDB_VERSION : 1.9
+The 'update_programming_file' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer '56841' : Scan Chain...
+Warning: programmer '56841' : Vpump has been selected on programmer AND an externally provided
+         Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer '56841' : Scan Chain PASSED.
+programmer '56841' : Executing action PROGRAM
+programmer '56841' : EXPORT FSN[48] = 01064d24708c
+programmer '56841' : Erase ...
+programmer '56841' : Completed erase
+programmer '56841' : EXPORT CHECKSUM: [16] = 4a82
+programmer '56841' : Programming FPGA Array
+programmer '56841' : Verifying FPGA Array
+programmer '56841' :         Verifying FPGA Array -- pass
+programmer '56841' : Program System Init and Boot Clients...
+programmer '56841' : Verify System Init and Boot Clients...
+programmer '56841' : Finished: Sat Feb 14 01:00:29 2015 (Elapsed time 00:00:34)
+programmer '56841' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

@@ -1,0 +1,23 @@
+----------------------------------------------------------------------
+Report for cell swregwrp.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKBUF         1       0.0        0.0
+                                GND         1       0.0        0.0
+                              INBUF         6       0.0        0.0
+                              NOR2A         1       1.0        1.0
+                             OUTBUF        15       0.0        0.0
+                                VCC         1       0.0        0.0
+                              swreg         1       2.0        2.0
+                            
+                         TOTAL             26                  3.0
+----------------------------------------------------------------------
+Report for cell swreg.netlist
+     Instance path:  swreg_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                           DFN1E1C0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              4                  2.0

@@ -1,0 +1,17 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.5 (Version 11.5.0.26)
+
+Date      :  Sat Feb 14 00:36:20 2015
+Project   :  C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3
+Component :  Lab3
+Family    :  SmartFusion
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/Casey/Documents/Libero Projects/ECE 5780/Lab3/component/Actel/DirectCore/CoreAPB3/4.0.100/rtl/vlog/core_obfuscated/coreapb3.v
+    C:/Users/Casey/Documents/Libero Projects/ECE 5780/Lab3/component/Actel/DirectCore/CoreAPB3/4.0.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v
+    C:/Users/Casey/Documents/Libero Projects/ECE 5780/Lab3/component/Actel/DirectCore/CoreAPB3/4.0.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v
+    C:/Users/Casey/Documents/Libero Projects/ECE 5780/Lab3/component/work/Lab3/Lab3.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/Casey/Documents/Libero Projects/ECE 5780/Lab3/component/work/Lab3/subsystem.bfm
+

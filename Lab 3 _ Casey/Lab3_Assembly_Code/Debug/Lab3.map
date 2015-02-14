@@ -1,0 +1,55 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ram              0x20000000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./main.o
+
+.text           0x20000000       0x32
+ *(.int_vector)
+ .int_vector    0x20000000        0x8 ./main.o
+                0x20000000                _start
+ *(.text*)
+ .text          0x20000008       0x2a ./main.o
+                0x20000032                end = .
+OUTPUT(Lab3 elf32-littlearm)
+
+.data           0x20000032        0x0
+ .data          0x20000032        0x0 ./main.o
+
+.glue_7         0x20000034        0x0 load address 0x20000032
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x20000034        0x0 load address 0x20000032
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x20000034        0x0 load address 0x20000032
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x20000034        0x0 load address 0x20000032
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.bss            0x20000032        0x0
+ .bss           0x20000032        0x0 ./main.o
+
+.ARM.attributes
+                0x00000000       0x21
+ .ARM.attributes
+                0x00000000       0x21 ./main.o
+
+.debug_line     0x00000000       0x45
+ .debug_line    0x00000000       0x45 ./main.o
+
+.debug_info     0x00000000       0x57
+ .debug_info    0x00000000       0x57 ./main.o
+
+.debug_abbrev   0x00000000       0x14
+ .debug_abbrev  0x00000000       0x14 ./main.o
+
+.debug_aranges  0x00000000       0x20
+ .debug_aranges
+                0x00000000       0x20 ./main.o

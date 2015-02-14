@@ -1,0 +1,109 @@
+#OPTIONS:"|-top|Lab3|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|C:\\Users\\Casey\\Documents\\Libero Projects\\ECE 5780\\Lab3\\synthesis\\|-I|C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\lib\\proasic\\smartfusion.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\bin64\\c_ver.exe":1412914578
+#CUR:"C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\lib\\proasic\\smartfusion.v":1412958462
+#CUR:"C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\lib\\vlog\\umr_capim.v":1412914498
+#CUR:"C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\lib\\vlog\\scemi_objects.v":1412914244
+#CUR:"C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\lib\\vlog\\scemi_pipes.svh":1412914244
+#CUR:"C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\lib\\vlog\\hypermods.v":1412914244
+#CUR:"C:\\Users\\Casey\\Documents\\Libero Projects\\ECE 5780\\Lab3\\component\\work\\Lab3_MSS\\mss_tshell.v":1423899345
+#CUR:"C:\\Users\\Casey\\Documents\\Libero Projects\\ECE 5780\\Lab3\\component\\Actel\\SmartFusionMSS\\MSS\\2.5.106\\mss_comps.v":1422631489
+#CUR:"C:\\Users\\Casey\\Documents\\Libero Projects\\ECE 5780\\Lab3\\component\\work\\Lab3_MSS\\MSS_CCC_0\\Lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":1423899343
+#CUR:"C:\\Users\\Casey\\Documents\\Libero Projects\\ECE 5780\\Lab3\\component\\work\\Lab3_MSS\\Lab3_MSS.v":1423899349
+#CUR:"C:\\Users\\Casey\\Documents\\Libero Projects\\ECE 5780\\Lab3\\hdl\\ledreg.v":1423843033
+#CUR:"C:\\Users\\Casey\\Documents\\Libero Projects\\ECE 5780\\Lab3\\hdl\\ledregwrp.v":1423835679
+#CUR:"C:\\Users\\Casey\\Documents\\Libero Projects\\ECE 5780\\Lab3\\hdl\\mydecoder.v":1423899316
+#CUR:"C:\\Users\\Casey\\Documents\\Libero Projects\\ECE 5780\\Lab3\\hdl\\roreg.v":1423895982
+#CUR:"C:\\Users\\Casey\\Documents\\Libero Projects\\ECE 5780\\Lab3\\hdl\\roregwrp.v":1423897394
+#CUR:"C:\\Users\\Casey\\Documents\\Libero Projects\\ECE 5780\\Lab3\\hdl\\swreg.v":1423835799
+#CUR:"C:\\Users\\Casey\\Documents\\Libero Projects\\ECE 5780\\Lab3\\hdl\\swregwrp.v":1423885430
+#CUR:"C:\\Users\\Casey\\Documents\\Libero Projects\\ECE 5780\\Lab3\\hdl\\woreg.v":1423895204
+#CUR:"C:\\Users\\Casey\\Documents\\Libero Projects\\ECE 5780\\Lab3\\hdl\\woregwrp.v":1423897347
+#CUR:"C:\\Users\\Casey\\Documents\\Libero Projects\\ECE 5780\\Lab3\\component\\Actel\\DirectCore\\CoreAPB3\\4.0.100\\rtl\\vlog\\core_obfuscated\\coreapb3_muxptob3.v":1423838167
+#CUR:"C:\\Users\\Casey\\Documents\\Libero Projects\\ECE 5780\\Lab3\\component\\Actel\\DirectCore\\CoreAPB3\\4.0.100\\rtl\\vlog\\core_obfuscated\\coreapb3_iaddr_reg.v":1423838167
+#CUR:"C:\\Users\\Casey\\Documents\\Libero Projects\\ECE 5780\\Lab3\\component\\Actel\\DirectCore\\CoreAPB3\\4.0.100\\rtl\\vlog\\core_obfuscated\\coreapb3.v":1423838167
+#CUR:"C:\\Users\\Casey\\Documents\\Libero Projects\\ECE 5780\\Lab3\\component\\work\\Lab3\\Lab3.v":1423899374
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\component\work\Lab3_MSS\mss_tshell.v" verilog
+1			"C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v" verilog
+2			"C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\component\work\Lab3_MSS\MSS_CCC_0\Lab3_MSS_tmp_MSS_CCC_0_MSS_CCC.v" verilog
+3			"C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\component\work\Lab3_MSS\Lab3_MSS.v" verilog
+4			"C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\hdl\ledreg.v" verilog
+5			"C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\hdl\ledregwrp.v" verilog
+6			"C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\hdl\mydecoder.v" verilog
+7			"C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\hdl\roreg.v" verilog
+8			"C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\hdl\roregwrp.v" verilog
+9			"C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\hdl\swreg.v" verilog
+10			"C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\hdl\swregwrp.v" verilog
+11			"C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\hdl\woreg.v" verilog
+12			"C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\hdl\woregwrp.v" verilog
+13			"C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v" verilog
+14			"C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v" verilog
+15			"C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\component\Actel\DirectCore\CoreAPB3\4.0.100\rtl\vlog\core_obfuscated\coreapb3.v" verilog
+16			"C:\Users\Casey\Documents\Libero Projects\ECE 5780\Lab3\component\work\Lab3\Lab3.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 2
+4 -1
+5 4
+6 -1
+7 -1
+8 7
+9 -1
+10 9
+11 -1
+12 11
+13 -1
+14 -1
+15 13 14
+16 15 3 5 6 8 10 12
+#Dependency Lists(Users Of)
+0 -1
+1 -1
+2 3
+3 16
+4 5
+5 16
+6 16
+7 8
+8 16
+9 10
+10 16
+11 12
+12 16
+13 15
+14 15
+15 16
+16 -1
+#Design Unit to File Association
+module work MSS_APB 0
+module work MSS_XTLOSC 1
+module work MSS_LPXTLOSC 1
+module work INBUF_MSS 1
+module work OUTBUF_MSS 1
+module work TRIBUFF_MSS 1
+module work BIBUF_MSS 1
+module work BIBUF_OPEND_MSS 1
+module work INBUF_MCCC 1
+module work INBUF_LVPECL_MCCC 1
+module work INBUF_LVDS_MCCC 1
+module work MSSINT 1
+module work MSS_CCC 1
+module work MSS_ALL 1
+module work Lab3_MSS_tmp_MSS_CCC_0_MSS_CCC 2
+module work Lab3_MSS 3
+module work ledreg 4
+module work ledregwrp 5
+module work mydecoder 6
+module work roreg 7
+module work roregwrp 8
+module work swreg 9
+module work swregwrp 10
+module work woreg 11
+module work woregwrp 12
+module work Lab3 16
+module COREAPB3_LIB CAPB3l 13
+module COREAPB3_LIB CAPB3O 14
+module COREAPB3_LIB CoreAPB3 15

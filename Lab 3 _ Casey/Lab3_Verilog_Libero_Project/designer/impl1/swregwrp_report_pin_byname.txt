@@ -1,0 +1,34 @@
+*****************************************************************
+Pin Report - Date: Fri Feb 13 07:54:58 2015 UNCOMPLETED LAYOUT
+Product: Designer
+Release: v11.5
+Version: 11.5.0.26
+Design Name: swregwrp
+Family: SmartFusion
+Die: A2F200M3F
+Package: 484 FBGA
+*****************************************************************
+Port      |Pin        |Fixed      |Function |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Schmitt Trigger |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+----------|-----------|-----------|---------|--------|------------------|-----|--------------|----------------|-----|-----------------|------------|--------------|
+PCLK       Unassigned  Unassigned            LVTTL    ---                ---   None           No               ---   ---               No           No
+PENABLE    Unassigned  Unassigned            LVTTL    ---                ---   None           No               ---   ---               No           No
+PRDATA[0]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[1]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[2]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[3]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[4]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[5]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[6]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[7]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PREADY     Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRESERN    Unassigned  Unassigned            LVTTL    ---                ---   None           No               ---   ---               No           No
+PSEL       Unassigned  Unassigned            LVTTL    ---                ---   None           No               ---   ---               No           No
+PSLVERR    Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PWRITE     Unassigned  Unassigned            LVTTL    ---                ---   None           No               ---   ---               No           No
+SWCON[0]   Unassigned  Unassigned            LVTTL    ---                ---   None           No               ---   ---               No           No
+SWCON[1]   Unassigned  Unassigned            LVTTL    ---                ---   None           No               ---   ---               No           No
+TPS[0]     Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+TPS[1]     Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+TPS[2]     Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+TPS[3]     Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+TPS[4]     Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
