@@ -1,0 +1,47 @@
+C:\Microsemi\Libero_v10.1\Synopsys\synplify_F201203MSP1\bin64\c_ver.exe  -prodtype  synplify_pro  -osyn  "C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\synthesis\synwork\lab4_compiler.srs"  -top  lab4  -nram -fixsmult   -divnmod -I "C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\synthesis\"  -I C:\Microsemi\Libero_v10.1\Synopsys\synplify_F201203MSP1\lib  -v2001  -devicelib  C:\Microsemi\Libero_v10.1\Synopsys\synplify_F201203MSP1\lib\proasic\smartfusion.v  -encrypt  -pro  -dmgen  "C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\synthesis\dm"  -ll 2000   -ui -fid2 -ram -sharing on  -autosm -lib work "C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\work\lab4_MSS\mss_tshell.v" -lib work "C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v" -lib work "C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\work\lab4_MSS\MSS_CCC_0\lab4_MSS_tmp_MSS_CCC_0_MSS_CCC.v" -lib work "C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\work\lab4_MSS\lab4_MSS.v" -lib work "C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v" -lib work "C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\Debouncer.v" -lib work "C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED_wrp.v" -lib COREAPB3_LIB "C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v" -lib COREAPB3_LIB "C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v" -lib work "C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\work\lab4\lab4.v" -loga  "C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\synthesis\lab4.srr" 
+rc:1 success:1
+C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\synthesis\synwork\lab4_compiler.srs|o|1424988674|50043
+C:\Microsemi\Libero_v10.1\Synopsys\synplify_F201203MSP1\lib\proasic\smartfusion.v|i|1340037616|72817
+"C:\Users\Kyler\Desktop\Spring|i|0|0
+2015\ECE|i|0|0
+5780\Embedded-Systems\Lab|i|0|0
+4_Kyler\lab4fpga\component\work\lab4_MSS\mss_tshell.v"|i|0|0
+"C:\Users\Kyler\Desktop\Spring|i|0|0
+2015\ECE|i|0|0
+5780\Embedded-Systems\Lab|i|0|0
+4_Kyler\lab4fpga\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v"|i|0|0
+"C:\Users\Kyler\Desktop\Spring|i|0|0
+2015\ECE|i|0|0
+5780\Embedded-Systems\Lab|i|0|0
+4_Kyler\lab4fpga\component\work\lab4_MSS\MSS_CCC_0\lab4_MSS_tmp_MSS_CCC_0_MSS_CCC.v"|i|0|0
+"C:\Users\Kyler\Desktop\Spring|i|0|0
+2015\ECE|i|0|0
+5780\Embedded-Systems\Lab|i|0|0
+4_Kyler\lab4fpga\component\work\lab4_MSS\lab4_MSS.v"|i|0|0
+"C:\Users\Kyler\Desktop\Spring|i|0|0
+2015\ECE|i|0|0
+5780\Embedded-Systems\Lab|i|0|0
+4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v"|i|0|0
+"C:\Users\Kyler\Desktop\Spring|i|0|0
+2015\ECE|i|0|0
+5780\Embedded-Systems\Lab|i|0|0
+4_Kyler\lab4fpga\hdl\Debouncer.v"|i|0|0
+"C:\Users\Kyler\Desktop\Spring|i|0|0
+2015\ECE|i|0|0
+5780\Embedded-Systems\Lab|i|0|0
+4_Kyler\lab4fpga\hdl\ReadSW_WriteLED_wrp.v"|i|0|0
+"C:\Users\Kyler\Desktop\Spring|i|0|0
+2015\ECE|i|0|0
+5780\Embedded-Systems\Lab|i|0|0
+4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v"|i|0|0
+"C:\Users\Kyler\Desktop\Spring|i|0|0
+2015\ECE|i|0|0
+5780\Embedded-Systems\Lab|i|0|0
+4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v"|i|0|0
+"C:\Users\Kyler\Desktop\Spring|i|0|0
+2015\ECE|i|0|0
+5780\Embedded-Systems\Lab|i|0|0
+4_Kyler\lab4fpga\component\work\lab4\lab4.v"|i|0|0
+C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\synthesis\lab4.srr|o|1424988674|29923
+C:\Microsemi\Libero_v10.1\Synopsys\synplify_F201203MSP1\bin64\c_ver.exe|i|1340037506|5529088
+C:\Microsemi\Libero_v10.1\Synopsys\synplify_F201203MSP1\bin\c_ver.exe|i|1340037494|2039808

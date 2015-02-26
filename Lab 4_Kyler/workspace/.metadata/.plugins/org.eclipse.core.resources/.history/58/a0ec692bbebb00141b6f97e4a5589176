@@ -1,0 +1,11 @@
+interrupts:
+waitStr:	.asciz "Handling IRQ FABINT %d\n\r"
+		.align 2
+
+@ Global variables (must be in the .data section)
+  .data
+count:	.word	0
+
+	.text
+	.syntax	unified
+	.thumb

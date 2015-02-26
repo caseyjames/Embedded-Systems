@@ -1,0 +1,202 @@
+Selecting top level module lab4
+@W: CG775 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Found Component CoreAPB3 in library COREAPB3_LIB
+@N: CG364 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v":13:0:13:5|Synthesizing module CAPB3O
+
+@N: CG364 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Synthesizing module CoreAPB3
+
+	APB_DWIDTH=6'b100000
+	RANGESIZE=21'b000000000000100000000
+	IADDR_ENABLE=1'b0
+	APBSLOT0ENABLE=1'b1
+	APBSLOT1ENABLE=1'b0
+	APBSLOT2ENABLE=1'b0
+	APBSLOT3ENABLE=1'b0
+	APBSLOT4ENABLE=1'b0
+	APBSLOT5ENABLE=1'b0
+	APBSLOT6ENABLE=1'b0
+	APBSLOT7ENABLE=1'b0
+	APBSLOT8ENABLE=1'b0
+	APBSLOT9ENABLE=1'b0
+	APBSLOT10ENABLE=1'b0
+	APBSLOT11ENABLE=1'b0
+	APBSLOT12ENABLE=1'b0
+	APBSLOT13ENABLE=1'b0
+	APBSLOT14ENABLE=1'b0
+	APBSLOT15ENABLE=1'b0
+	CAPB3O1I=32'b00000000000000000000000000001000
+	CAPB3I1I=32'b00000000000000000000000000001000
+	CAPB3l1I=8'b00001100
+	CAPB3OOl=8'b00001000
+	CAPB3IOl=8'b00000100
+	CAPB3lOl=8'b00000000
+	CAPB3OIl=8'b00000100
+	CAPB3IIl=8'b00000000
+	CAPB3lIl=8'b00000000
+	CAPB3Oll=16'b0000000000000001
+	CAPB3Ill=16'b0000000000000000
+	CAPB3lll=16'b0000000000000000
+	CAPB3O0l=16'b0000000000000000
+	CAPB3I0l=16'b0000000000000000
+	CAPB3l0l=16'b0000000000000000
+	CAPB3O1l=16'b0000000000000000
+	CAPB3I1l=16'b0000000000000000
+	CAPB3l1l=16'b0000000000000000
+	CAPB3OO0=16'b0000000000000000
+	CAPB3IO0=16'b0000000000000000
+	CAPB3lO0=16'b0000000000000000
+	CAPB3OI0=16'b0000000000000000
+	CAPB3II0=16'b0000000000000000
+	CAPB3lI0=16'b0000000000000000
+	CAPB3Ol0=16'b0000000000000000
+   Generated name = CoreAPB3_Z1
+
+@N: CG364 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\work\lab4_MSS\mss_tshell.v":1:7:1:13|Synthesizing module MSS_APB
+
+@N: CG364 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":151:7:151:13|Synthesizing module MSS_CCC
+
+@N: CG364 :"C:\Microsemi\Libero_v10.1\Synopsys\synplify_F201203MSP1\lib\proasic\smartfusion.v":2620:7:2620:11|Synthesizing module RCOSC
+
+@N: CG364 :"C:\Microsemi\Libero_v10.1\Synopsys\synplify_F201203MSP1\lib\proasic\smartfusion.v":1141:7:1141:9|Synthesizing module GND
+
+@N: CG364 :"C:\Microsemi\Libero_v10.1\Synopsys\synplify_F201203MSP1\lib\proasic\smartfusion.v":1868:7:1868:9|Synthesizing module VCC
+
+@N: CG364 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\work\lab4_MSS\MSS_CCC_0\lab4_MSS_tmp_MSS_CCC_0_MSS_CCC.v":5:7:5:36|Synthesizing module lab4_MSS_tmp_MSS_CCC_0_MSS_CCC
+
+@N: CG364 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":23:7:23:15|Synthesizing module INBUF_MSS
+
+@N: CG364 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":37:7:37:16|Synthesizing module OUTBUF_MSS
+
+@N: CG364 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\work\lab4_MSS\lab4_MSS.v":9:7:9:14|Synthesizing module lab4_MSS
+
+@N: CG364 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\Debouncer.v":8:7:8:15|Synthesizing module Debouncer
+
+@N: CG364 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":121:7:121:17|Synthesizing module Decoder3to8
+
+@N: CG364 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":3:7:3:21|Synthesizing module ReadSW_WriteLED
+
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Register bit bus_read_data[3] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Register bit bus_read_data[4] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Register bit bus_read_data[5] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Register bit bus_read_data[6] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Register bit bus_read_data[7] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Register bit bus_read_data[8] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Register bit bus_read_data[9] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Register bit bus_read_data[10] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Register bit bus_read_data[11] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Register bit bus_read_data[12] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Register bit bus_read_data[13] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Register bit bus_read_data[14] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Register bit bus_read_data[15] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Register bit bus_read_data[16] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Register bit bus_read_data[17] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Register bit bus_read_data[18] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Register bit bus_read_data[19] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Register bit bus_read_data[20] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Register bit bus_read_data[21] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Register bit bus_read_data[22] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Register bit bus_read_data[23] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Register bit bus_read_data[24] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Register bit bus_read_data[25] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Register bit bus_read_data[26] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Register bit bus_read_data[27] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Register bit bus_read_data[28] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Register bit bus_read_data[29] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Register bit bus_read_data[30] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Register bit bus_read_data[31] is always 0, optimizing ...
+@W: CL279 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":31:4:31:9|Pruning register bits 31 to 3 of bus_read_data[31:0] 
+
+@N: CG364 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED_wrp.v":3:7:3:25|Synthesizing module ReadSW_WriteLED_wrp
+
+@W: CS263 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED_wrp.v":44:46:44:50|Port-width mismatch for port bus_addr. Formal has width 8, Actual 9
+@N: CG364 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\work\lab4\lab4.v":9:7:9:10|Synthesizing module lab4
+
+@W: CL247 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED_wrp.v":20:17:20:21|Input port bit 8 of PADDR[8:0] is unused
+
+@W: CL246 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":15:16:15:23|Input port bits 7 to 4 of bus_addr[7:0] are unused
+
+@W: CL246 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":15:16:15:23|Input port bits 1 to 0 of bus_addr[7:0] are unused
+
+@W: CL246 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":17:17:17:30|Input port bits 31 to 3 of bus_write_data[31:0] are unused
+
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\Debouncer.v":39:0:39:5|Register bit counter[10] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\Debouncer.v":39:0:39:5|Register bit counter[11] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\Debouncer.v":39:0:39:5|Register bit counter[12] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\Debouncer.v":39:0:39:5|Register bit counter[13] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\Debouncer.v":39:0:39:5|Register bit counter[14] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\Debouncer.v":39:0:39:5|Register bit counter[15] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\Debouncer.v":39:0:39:5|Register bit counter[16] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\Debouncer.v":39:0:39:5|Register bit counter[17] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\Debouncer.v":39:0:39:5|Register bit counter[18] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\Debouncer.v":39:0:39:5|Register bit counter[19] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\Debouncer.v":39:0:39:5|Register bit counter[20] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\Debouncer.v":39:0:39:5|Register bit counter[21] is always 0, optimizing ...
+@W: CL189 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\Debouncer.v":39:0:39:5|Register bit counter[22] is always 0, optimizing ...
+@W: CL279 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\Debouncer.v":39:0:39:5|Pruning register bits 22 to 10 of counter[22:0] 
+
+@W: CL157 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\work\lab4_MSS\MSS_CCC_0\lab4_MSS_tmp_MSS_CCC_0_MSS_CCC.v":62:7:62:18|*Output RCOSC_CLKOUT has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\work\lab4_MSS\MSS_CCC_0\lab4_MSS_tmp_MSS_CCC_0_MSS_CCC.v":63:7:63:20|*Output MAINXIN_CLKOUT has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\work\lab4_MSS\MSS_CCC_0\lab4_MSS_tmp_MSS_CCC_0_MSS_CCC.v":64:7:64:18|*Output LPXIN_CLKOUT has undriven bits -- simulation mismatch possible.
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\work\lab4_MSS\MSS_CCC_0\lab4_MSS_tmp_MSS_CCC_0_MSS_CCC.v":36:7:36:10|Input CLKA is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\work\lab4_MSS\MSS_CCC_0\lab4_MSS_tmp_MSS_CCC_0_MSS_CCC.v":37:7:37:14|Input CLKA_PAD is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\work\lab4_MSS\MSS_CCC_0\lab4_MSS_tmp_MSS_CCC_0_MSS_CCC.v":38:7:38:15|Input CLKA_PADP is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\work\lab4_MSS\MSS_CCC_0\lab4_MSS_tmp_MSS_CCC_0_MSS_CCC.v":39:7:39:15|Input CLKA_PADN is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\work\lab4_MSS\MSS_CCC_0\lab4_MSS_tmp_MSS_CCC_0_MSS_CCC.v":40:7:40:10|Input CLKB is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\work\lab4_MSS\MSS_CCC_0\lab4_MSS_tmp_MSS_CCC_0_MSS_CCC.v":41:7:41:14|Input CLKB_PAD is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\work\lab4_MSS\MSS_CCC_0\lab4_MSS_tmp_MSS_CCC_0_MSS_CCC.v":42:7:42:15|Input CLKB_PADP is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\work\lab4_MSS\MSS_CCC_0\lab4_MSS_tmp_MSS_CCC_0_MSS_CCC.v":43:7:43:15|Input CLKB_PADN is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\work\lab4_MSS\MSS_CCC_0\lab4_MSS_tmp_MSS_CCC_0_MSS_CCC.v":44:7:44:10|Input CLKC is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\work\lab4_MSS\MSS_CCC_0\lab4_MSS_tmp_MSS_CCC_0_MSS_CCC.v":45:7:45:14|Input CLKC_PAD is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\work\lab4_MSS\MSS_CCC_0\lab4_MSS_tmp_MSS_CCC_0_MSS_CCC.v":46:7:46:15|Input CLKC_PADP is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\work\lab4_MSS\MSS_CCC_0\lab4_MSS_tmp_MSS_CCC_0_MSS_CCC.v":47:7:47:15|Input CLKC_PADN is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\work\lab4_MSS\MSS_CCC_0\lab4_MSS_tmp_MSS_CCC_0_MSS_CCC.v":48:7:48:13|Input MAINXIN is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\work\lab4_MSS\MSS_CCC_0\lab4_MSS_tmp_MSS_CCC_0_MSS_CCC.v":49:7:49:11|Input LPXIN is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\work\lab4_MSS\MSS_CCC_0\lab4_MSS_tmp_MSS_CCC_0_MSS_CCC.v":50:7:50:13|Input MAC_CLK is unused
+@W: CL246 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":217:0:217:4|Input port bits 23 to 12 of PADDR[23:0] are unused
+
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":208:0:208:6|Input PRESETN is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":210:0:210:3|Input PCLK is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":356:0:356:7|Input PRDATAS1 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":363:0:363:7|Input PRDATAS2 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":370:0:370:7|Input PRDATAS3 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":377:0:377:7|Input PRDATAS4 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":384:0:384:7|Input PRDATAS5 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":391:0:391:7|Input PRDATAS6 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":398:0:398:7|Input PRDATAS7 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":405:0:405:7|Input PRDATAS8 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":412:0:412:7|Input PRDATAS9 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":419:0:419:8|Input PRDATAS10 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":426:0:426:8|Input PRDATAS11 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":433:0:433:8|Input PRDATAS12 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":440:0:440:8|Input PRDATAS13 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":447:0:447:8|Input PRDATAS14 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":454:0:454:8|Input PRDATAS15 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":458:0:458:7|Input PREADYS1 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":460:0:460:7|Input PREADYS2 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":462:0:462:7|Input PREADYS3 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":464:0:464:7|Input PREADYS4 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":466:0:466:7|Input PREADYS5 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":468:0:468:7|Input PREADYS6 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":470:0:470:7|Input PREADYS7 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":472:0:472:7|Input PREADYS8 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":474:0:474:7|Input PREADYS9 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":476:0:476:8|Input PREADYS10 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":478:0:478:8|Input PREADYS11 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":480:0:480:8|Input PREADYS12 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":482:0:482:8|Input PREADYS13 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":484:0:484:8|Input PREADYS14 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":486:0:486:8|Input PREADYS15 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":490:0:490:8|Input PSLVERRS1 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":492:0:492:8|Input PSLVERRS2 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":494:0:494:8|Input PSLVERRS3 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":496:0:496:8|Input PSLVERRS4 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":498:0:498:8|Input PSLVERRS5 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":500:0:500:8|Input PSLVERRS6 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":502:0:502:8|Input PSLVERRS7 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":504:0:504:8|Input PSLVERRS8 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":506:0:506:8|Input PSLVERRS9 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":508:0:508:9|Input PSLVERRS10 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":510:0:510:9|Input PSLVERRS11 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":512:0:512:9|Input PSLVERRS12 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":514:0:514:9|Input PSLVERRS13 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":516:0:516:9|Input PSLVERRS14 is unused
+@W: CL159 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":518:0:518:9|Input PSLVERRS15 is unused

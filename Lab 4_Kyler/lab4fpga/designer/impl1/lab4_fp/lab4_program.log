@@ -1,0 +1,46 @@
+FlashPro
+Version: 10.1.0.14
+Release: v10.1
+
+Software Version: 10.1.0.14
+PDB file 'C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab
+4_Kyler\lab4fpga\designer\impl1\lab4_fp\lab4.pdb' has been loaded successfully.
+DESIGN : lab4;  CHECKSUM : E5B7;  PDB_VERSION : 1.7
+Driver : 3.0.0 build 1
+programmer '56892' : FlashPro3
+Opened 'C:/Users/Kyler/Desktop/Spring 2015/ECE 5780/Embedded-Systems/Lab
+4_Kyler/lab4fpga/designer/impl1/lab4_fp/lab4.pro'
+The 'open_project' command succeeded.
+The 'set_programming_file' command succeeded.
+The 'set_device_type' command succeeded.
+The 'set_device_package' command succeeded.
+Info: Adding Flash Memory data from file C:\Users\Kyler\Desktop\Spring 2015\ECE
+      5780\Embedded-Systems\Lab
+      4_Kyler\lab4fpga\component\work\lab4_MSS\MSS_ENVM_0\MSS_ENVM_0.efc.
+Info: Adding FPGA Array data from file C:\Users\Kyler\Desktop\Spring 2015\ECE
+      5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\designer\impl1\lab4.fdb.
+PDB file 'C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab
+4_Kyler\lab4fpga\designer\impl1\lab4_fp\lab4.pdb' has been loaded successfully.
+DESIGN : lab4;  CHECKSUM : E5B7;  PDB_VERSION : 1.7
+The 'update_programming_file' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer '56892' : Scan Chain...
+Warning: programmer '56892' : Vpump has been selected on programmer AND an externally provided
+         Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer '56892' : Scan Chain PASSED.
+programmer '56892' : Executing action PROGRAM
+programmer '56892' : EXPORT FSN[48] = 01064d20b460
+programmer '56892' : Erase ...
+programmer '56892' : Completed erase
+programmer '56892' : Programming FPGA Array
+programmer '56892' : Verifying FPGA Array
+programmer '56892' :         Verifying FPGA Array -- pass
+programmer '56892' : Program System Init and Boot Clients...
+programmer '56892' : Verify System Init and Boot Clients...
+programmer '56892' : Finished: Thu Feb 26 15:14:10 2015 (Elapsed time 00:00:40)
+programmer '56892' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+The 'save_project' command succeeded.

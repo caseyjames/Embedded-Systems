@@ -1,0 +1,164 @@
+----------------------------------------------------------------------
+Report for cell lab4.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                        CoreAPB3_Z1         1       5.0        5.0
+                                GND         1       0.0        0.0
+                              INBUF         2       0.0        0.0
+                             OUTBUF         8       0.0        0.0
+                ReadSW_WriteLED_wrp         1     143.0      143.0
+                                VCC         1       0.0        0.0
+                           lab4_MSS         1       0.0        0.0
+                            
+                         TOTAL             15                148.0
+----------------------------------------------------------------------
+Report for cell ReadSW_WriteLED_wrp.netlist
+     Instance path:  ReadSW_WriteLED_wrp_0
+                                          Cell usage:
+                               cell       count     area    count*area
+          Debouncer_ReadSW_WriteLED_wrp_0_sw_0         1      48.0       48.0
+          Debouncer_ReadSW_WriteLED_wrp_0_sw_0_1         1      48.0       48.0
+                                GND         1       0.0        0.0
+                    ReadSW_WriteLED         1      47.0       47.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              5                143.0
+----------------------------------------------------------------------
+Report for cell ReadSW_WriteLED.netlist
+     Instance path:  ReadSW_WriteLED_wrp_0.ReadSW_WriteLED_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               DFN1         4       1.0        4.0
+                             DFN1C0         4       1.0        4.0
+                             DFN1E0         3       1.0        3.0
+                             DFN1E1         2       1.0        2.0
+                             DFN1P0         2       1.0        2.0
+                        Decoder3to8         1       8.0        8.0
+                                GND         1       0.0        0.0
+                                INV         2       1.0        2.0
+                                MX2         5       1.0        5.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         6       1.0        6.0
+                              NOR3C         2       1.0        2.0
+                                OA1         1       1.0        1.0
+                                OR2         2       1.0        2.0
+                                OR3         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             42                 47.0
+----------------------------------------------------------------------
+Report for cell Decoder3to8.netlist
+     Instance path:  ReadSW_WriteLED_wrp_0.ReadSW_WriteLED_0.Decoder3to8_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                                OR3         1       1.0        1.0
+                               OR3A         3       1.0        3.0
+                               OR3B         3       1.0        3.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             10                  8.0
+----------------------------------------------------------------------
+Report for cell Debouncer_ReadSW_WriteLED_wrp_0_sw_0_1.netlist
+  Original Cell name Debouncer_ReadSW_WriteLED_wrp_0_sw_0
+     Instance path:  ReadSW_WriteLED_wrp_0.sw_1
+                                          Cell usage:
+                               cell       count     area    count*area
+                               DFN1         8       1.0        8.0
+                             DFN1E1         5       1.0        5.0
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                               MX2B         4       1.0        4.0
+                               NOR2         1       1.0        1.0
+                              NOR2B         3       1.0        3.0
+                              NOR3A         1       1.0        1.0
+                               OA1C         3       1.0        3.0
+                               OAI1         1       1.0        1.0
+                               OR2A         3       1.0        3.0
+                               OR2B         4       1.0        4.0
+                                OR3         2       1.0        2.0
+                               OR3A         1       1.0        1.0
+                               OR3B         3       1.0        3.0
+                                VCC         1       0.0        0.0
+                               XA1B         1       1.0        1.0
+                               XA1C         2       1.0        2.0
+                              XAI1A         2       1.0        2.0
+                                XO1         3       1.0        3.0
+                            
+                         TOTAL             50                 48.0
+----------------------------------------------------------------------
+Report for cell Debouncer_ReadSW_WriteLED_wrp_0_sw_0.netlist
+  Original Cell name Debouncer
+     Instance path:  ReadSW_WriteLED_wrp_0.sw_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               DFN1         8       1.0        8.0
+                             DFN1E1         5       1.0        5.0
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                               MX2B         4       1.0        4.0
+                               NOR2         1       1.0        1.0
+                              NOR2B         3       1.0        3.0
+                               OA1C         2       1.0        2.0
+                               OAI1         1       1.0        1.0
+                               OR2A         5       1.0        5.0
+                               OR2B         4       1.0        4.0
+                                OR3         2       1.0        2.0
+                               OR3A         1       1.0        1.0
+                               OR3B         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                               XA1B         1       1.0        1.0
+                               XA1C         3       1.0        3.0
+                              XAI1A         2       1.0        2.0
+                                XO1         3       1.0        3.0
+                            
+                         TOTAL             50                 48.0
+----------------------------------------------------------------------
+Report for cell lab4_MSS.netlist
+     Instance path:  lab4_MSS_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                          INBUF_MSS         2       0.0        0.0
+                            MSS_APB         1       0.0        0.0
+                         OUTBUF_MSS         1       0.0        0.0
+                                VCC         1       0.0        0.0
+          lab4_MSS_tmp_MSS_CCC_0_MSS_CCC         1       0.0        0.0
+                            
+                         TOTAL              7                  0.0
+----------------------------------------------------------------------
+Report for cell lab4_MSS_tmp_MSS_CCC_0_MSS_CCC.netlist
+     Instance path:  lab4_MSS_0.MSS_CCC_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                            MSS_CCC         1       0.0        0.0
+                              RCOSC         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              4                  0.0
+----------------------------------------------------------------------
+Report for cell CoreAPB3_Z1.netlist
+     Instance path:  CoreAPB3_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CAPB3O         1       3.0        3.0
+                                GND         1       0.0        0.0
+                               NOR2         1       1.0        1.0
+                              NOR3A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              5                  5.0
+----------------------------------------------------------------------
+Report for cell CAPB3O.netlist
+     Instance path:  CoreAPB3_0.CAPB3llOI
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                              NOR3C         3       1.0        3.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              5                  3.0

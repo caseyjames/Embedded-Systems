@@ -1,0 +1,139 @@
+
+test:     file format elf32-littlearm
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00000074  20000000  20000000  00008000  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .stack        00002000  20000074  20000074  00008074  2**0
+                  ALLOC
+  2 .ARM.attributes 00000021  00000000  00000000  00008074  2**0
+                  CONTENTS, READONLY
+  3 .debug_line   00000091  00000000  00000000  00008095  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  4 .debug_info   000000b1  00000000  00000000  00008126  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_abbrev 00000028  00000000  00000000  000081d7  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_aranges 00000040  00000000  00000000  00008200  2**3
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+20000000 <intVectors>:
+20000000:	00 00 01 20 11 00 00 20 15 00 00 20 17 00 00 20     ... ... ... ... 
+
+20000010 <Reset_Handler>:
+ * Reset_Handler
+ */   
+    .global Reset_Handler
+    .type   Reset_Handler, %function
+Reset_Handler:
+	b main  @ Branch to main
+20000010:	f000 b802 	b.w	20000018 <main>
+
+20000014 <NMI_Handler>:
+ * NMI_Handler
+ */
+    .weak   NMI_Handler
+    .type   NMI_Handler, %function
+NMI_Handler:
+    B .
+20000014:	e7fe      	b.n	20000014 <NMI_Handler>
+
+20000016 <HardFault_Handler>:
+ * HardFault_Handler
+ */
+    .weak   HardFault_Handler
+    .type   HardFault_Handler, %function
+HardFault_Handler:
+    B .
+20000016:	e7fe      	b.n	20000016 <HardFault_Handler>
+
+20000018 <main>:
+
+	.global main
+	.type	main, %function
+main:
+	@ Load LEDs memory map address into r0
+	mov    r0, #0
+20000018:	f04f 0000 	mov.w	r0, #0
+	movt   r0, #:upper16:0x40050000
+2000001c:	f2c4 0005 	movt	r0, #16389	; 0x4005
+	@ Load Switches memory map address into r1
+	movw   r1, #:lower16:0x40050004
+20000020:	f240 0104 	movw	r1, #4
+	movt   r1, #:upper16:0x40050004
+20000024:	f2c4 0105 	movt	r1, #16389	; 0x4005
+
+	mov    r2, #0	@ int counter = 0
+20000028:	f04f 0200 	mov.w	r2, #0
+	mov    r3, #0	@ int switches = 0
+2000002c:	f04f 0300 	mov.w	r3, #0
+	mov    r4, #0	@ tmpSw = 0
+20000030:	f04f 0400 	mov.w	r4, #0
+
+	mov    r5, #0
+20000034:	f04f 0500 	mov.w	r5, #0
+	str    r5, [r0, #0]	@ LEDs = 0
+20000038:	6005      	str	r5, [r0, #0]
+	ldr    r3, [r1, #0]	@ Read mem map Switches into switches
+2000003a:	680b      	ldr	r3, [r1, #0]
+	mvn    r3, r3		@ Active low switches
+2000003c:	ea6f 0303 	mvn.w	r3, r3
+
+20000040 <while1>:
+
+while1:
+	ldr	r4, [r1, #0]	@ Read mem map Switches into tmpSw
+20000040:	680c      	ldr	r4, [r1, #0]
+	mvn	r4, r4	 	@ Active low switches
+20000042:	ea6f 0404 	mvn.w	r4, r4
+
+	@ if(switches == tmpSw) then goto loop
+	sub	      r5, r4, r3
+20000046:	eba4 0503 	sub.w	r5, r4, r3
+	cbnz	      r5, check_SW1
+2000004a:	b905      	cbnz	r5, 2000004e <check_SW1>
+	b	      while1
+2000004c:	e7f8      	b.n	20000040 <while1>
+
+2000004e <check_SW1>:
+
+	@ else - something changed in the switches
+check_SW1:
+	ands	r5, r5, #1	@ switches & 0x1
+2000004e:	f015 0501 	ands.w	r5, r5, #1
+	cbz	r5, check_SW2	@ if( switches & 0x1 == 0 ) goto check_SW2
+20000052:	b125      	cbz	r5, 2000005e <check_SW2>
+	ands	r6, r4, #1	@ tmpSw & 0x1
+20000054:	f014 0601 	ands.w	r6, r4, #1
+	cbnz	r6, check_SW2	@ if( tmpSw & 0x1 == 1 ) goto check_SW2
+20000058:	b90e      	cbnz	r6, 2000005e <check_SW2>
+	sub	r2, #1		@ counter--
+2000005a:	f1a2 0201 	sub.w	r2, r2, #1
+
+2000005e <check_SW2>:
+
+check_SW2:
+	ands	r5, r3, #2		@ switches & 0x2
+2000005e:	f013 0502 	ands.w	r5, r3, #2
+	cbz	r5, saveSWs_setLEDs	@ if( switches & 0x2 == 0) goto saveSWs_setLEDs
+20000062:	b125      	cbz	r5, 2000006e <saveSWs_setLEDs>
+	ands r6, r4, #2		@ tmpSw & 0x2
+20000064:	f014 0602 	ands.w	r6, r4, #2
+	cbnz r6, saveSWs_setLEDs  @ if( tmpSw & 0x2 == 1) goto	saveSWs_setLEDs
+20000068:	b90e      	cbnz	r6, 2000006e <saveSWs_setLEDs>
+	add	r2, #1			@ counter++
+2000006a:	f102 0201 	add.w	r2, r2, #1
+
+2000006e <saveSWs_setLEDs>:
+
+saveSWs_setLEDs:
+	mov	r3, r4		@ switches = tmpSw
+2000006e:	4623      	mov	r3, r4
+	str	r2, [r0, #0]	@ LEDs = counter
+20000070:	6002      	str	r2, [r0, #0]
+
+	b	while1
+20000072:	e7e5      	b.n	20000040 <while1>

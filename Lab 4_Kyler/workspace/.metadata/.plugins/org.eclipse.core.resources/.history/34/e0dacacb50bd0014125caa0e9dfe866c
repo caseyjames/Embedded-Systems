@@ -1,0 +1,53 @@
+.text
+	.syntax	unified
+	.thumb
+
+	.global main
+	.type	main, %function
+main:
+	@ Load LEDs memory map address into r0
+	mov    r0, #0
+	movt   r0, #:upper16:0x40050000
+	@ Load Switches memory map address into r1
+	movw   r1, #:lower16:0x40050004
+	movt   r1, #:upper16:0x40050004
+
+	mov    r2, #0	@ int counter = 0
+	mov    r3, #0	@ int switches = 0
+	mov    r4, #0	@ tmpSw = 0
+
+	mov    r5, #0
+	str    r5, [r0, #0]	@ LEDs = 0
+	ldr    r3, [r1, #0]	@ Read mem map Switches into switches
+	mvn    r3, r3		@ Active low switches
+
+while1:
+	ldr	r4, [r1, #0]	@ Read mem map Switches into tmpSw
+	mvn	r4, r4	 	@ Active low switches
+
+	@ if(switches == tmpSw) then goto loop
+	sub	      r5, r4, r3
+	cbnz	      r5, check_SW1
+	b	      while1
+
+	@ else - something changed in the switches
+check_SW1:
+	ands	r5, r5, #1	@ switches & 0x1
+	cbz	r5, check_SW2	@ if( switches & 0x1 == 0 ) goto check_SW2
+	ands	r6, r4, #1	@ tmpSw & 0x1
+	cbnz	r6, check_SW2	@ if( tmpSw & 0x1 == 1 ) goto check_SW2
+	sub	r2, #1		@ counter--
+
+check_SW2:
+	ands	r5, r3, #2		@ switches & 0x2
+	cbz	r5, saveSWs_setLEDs	@ if( switches & 0x2 == 0) goto saveSWs_setLEDs
+	ands r6, r4, #2		@ tmpSw & 0x2
+	cbnz r6, saveSWs_setLEDs  @ if( tmpSw & 0x2 == 1) goto	saveSWs_setLEDs
+	add	r2, #1			@ counter++
+
+saveSWs_setLEDs:
+	mov	r3, r4		@ switches = tmpSw
+	str	r2, [r0, #0]	@ LEDs = counter
+
+	b	while1
+	.size	main, .-main

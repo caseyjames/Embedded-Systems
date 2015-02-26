@@ -1,0 +1,25 @@
+Timing Violation Report Min Delay Analysis
+
+SmartTime Version v10.1
+Actel Corporation - Actel Designer Software Release v10.1 (Version 10.1.0.14)
+Copyright (c) 1989-2012
+Date: Thu Feb 26 15:12:27 2015
+
+
+Design: lab4
+Family: SmartFusion
+Die: A2F200M3F
+Package: 484 FBGA
+Temperature: COM
+Voltage: COM
+Speed Grade: -1
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Condition: BEST
+Max Operating Condition: WORST
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+No Path
+

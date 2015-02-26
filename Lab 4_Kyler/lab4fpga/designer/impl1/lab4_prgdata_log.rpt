@@ -1,0 +1,23 @@
+Actel Designer Software
+Version: 10.1.0.14
+Release: v10.1
+
+Info: The design C:/Users/Kyler/Desktop/Spring 2015/ECE 5780/Embedded-Systems/Lab
+      4_Kyler/lab4fpga/designer/impl1/lab4.adb was last modified by software version 10.1.0.14.
+Opened an existing Libero design C:/Users/Kyler/Desktop/Spring 2015/ECE
+5780/Embedded-Systems/Lab 4_Kyler/lab4fpga/designer/impl1/lab4.adb.
+Warning: Overwriting the existing file: C:/Users/Kyler/Desktop/Spring 2015/ECE
+         5780/Embedded-Systems/Lab 4_Kyler/lab4fpga/designer/impl1/lab4.fdb.
+
+The Export-map command succeeded ( 00:00:31 )
+CHECKSUM: E5B7
+Wrote to the file: C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab
+4_Kyler\lab4fpga\designer\impl1\lab4.fdb
+
+The Export command succeeded ( 00:00:34 )
+Design saved to file C:/Users/Kyler/Desktop/Spring 2015/ECE 5780/Embedded-Systems/Lab
+4_Kyler/lab4fpga/designer/impl1/lab4.adb.
+
+The Execute Script command succeeded ( 00:00:37 )
+Design closed.
+

@@ -1,0 +1,195 @@
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Feb 26 15:11:19 2015
+#
+
+
+Top view:               lab4
+Operating conditions:   smartfusion.COMWC-2
+Requested Frequency:    10.0 MHz
+Wire load mode:         top
+Wire load model:        smartfusion
+Paths requested:        5
+Constraint File(s):    C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\component\work\lab4_MSS\mss_tshell_syn.sdc
+                       
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.192
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock          
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group          
+------------------------------------------------------------------------------------------------------------------
+FAB_CLK            10.0 MHz      103.5 MHz     100.000       9.658         90.342     declared     clk_group_0    
+FCLK               10.0 MHz      NA            100.000       NA            NA         declared     clk_group_0    
+System             100.0 MHz     360.2 MHz     10.000        2.776         7.224      system       system_clkgroup
+==================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks             |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------
+Starting  Ending   |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------
+System    System   |  0.000       0.192  |  No paths    -      |  No paths    -      |  No paths    -    
+System    FAB_CLK  |  0.000       False  |  No paths    -      |  No paths    -      |  No paths    -    
+FAB_CLK   System   |  0.000       0.685  |  No paths    -      |  No paths    -      |  No paths    -    
+FAB_CLK   FAB_CLK  |  0.000       False  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: FAB_CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                               Starting                                                             Arrival          
+Instance                                                       Reference     Type       Pin     Net                                 Time        Slack
+                                                               Clock                                                                                 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+ReadSW_WriteLED_wrp_0.ReadSW_WriteLED_0.fabint                 FAB_CLK       DFN1       Q       ReadSW_WriteLED_wrp_0_FABINT        0.494       0.767
+ReadSW_WriteLED_wrp_0.ReadSW_WriteLED_0.bus_read_data_1[0]     FAB_CLK       DFN1E0     Q       CoreAPB3_0_APBmslave0_PRDATA[0]     0.494       1.607
+ReadSW_WriteLED_wrp_0.ReadSW_WriteLED_0.bus_read_data_1[1]     FAB_CLK       DFN1E0     Q       CoreAPB3_0_APBmslave0_PRDATA[1]     0.494       1.607
+ReadSW_WriteLED_wrp_0.ReadSW_WriteLED_0.bus_read_data_1[2]     FAB_CLK       DFN1E0     Q       CoreAPB3_0_APBmslave0_PRDATA[2]     0.494       1.607
+=====================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                              Starting                                                                           Required          
+Instance                      Reference     Type        Pin              Net                                     Time         Slack
+                              Clock                                                                                                
+-----------------------------------------------------------------------------------------------------------------------------------
+lab4_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_APB     FABINT           ReadSW_WriteLED_wrp_0_FABINT            0.000        0.685
+lab4_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_APB     MSSPRDATA[0]     lab4_MSS_0_MSS_MASTER_APB_PRDATA[0]     0.000        1.443
+lab4_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_APB     MSSPRDATA[1]     lab4_MSS_0_MSS_MASTER_APB_PRDATA[1]     0.000        1.443
+lab4_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_APB     MSSPRDATA[2]     lab4_MSS_0_MSS_MASTER_APB_PRDATA[2]     0.000        1.443
+===================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.685
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.000
+    - Clock delay at ending point:           0.000 (ideal)
+0.000
+    = Slack (non-critical) :                 0.685
+
+    Number of logic level(s):                0
+    Starting point:                          ReadSW_WriteLED_wrp_0.ReadSW_WriteLED_0.fabint / Q
+    Ending point:                            lab4_MSS_0.MSS_ADLIB_INST / FABINT
+    The start point is clocked by            FAB_CLK [rising] on pin CLK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                 Pin        Pin               Arrival     No. of    
+Name                                               Type        Name       Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------
+ReadSW_WriteLED_wrp_0.ReadSW_WriteLED_0.fabint     DFN1        Q          Out     0.494     0.494       -         
+ReadSW_WriteLED_wrp_0_FABINT                       Net         -          -       0.192     -           1         
+lab4_MSS_0.MSS_ADLIB_INST                          MSS_APB     FABINT     In      -         0.685       -         
+==================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                              Starting                                                                       Arrival          
+Instance                      Reference     Type        Pin              Net                                 Time        Slack
+                              Clock                                                                                           
+------------------------------------------------------------------------------------------------------------------------------
+lab4_MSS_0.MSS_ADLIB_INST     System        MSS_APB     EMCCLK           MSS_ADLIB_INST_EMCCLK               0.000       0.274
+lab4_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[11]     CoreAPB3_0_APBmslave0_PADDR[11]     0.000       2.340
+lab4_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[8]      CoreAPB3_0_APBmslave0_PADDR[8]      0.000       2.458
+lab4_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[10]     CoreAPB3_0_APBmslave0_PADDR[10]     0.000       2.468
+lab4_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[9]      CoreAPB3_0_APBmslave0_PADDR[9]      0.000       2.697
+lab4_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPSEL          lab4_MSS_0_MSS_MASTER_APB_PSELx     0.000       2.697
+==============================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                              Starting                                                                           Required          
+Instance                      Reference     Type        Pin              Net                                     Time         Slack
+                              Clock                                                                                                
+-----------------------------------------------------------------------------------------------------------------------------------
+lab4_MSS_0.MSS_ADLIB_INST     System        MSS_APB     EMCCLKRTN        MSS_ADLIB_INST_EMCCLK                   0.000        0.192
+lab4_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[0]     lab4_MSS_0_MSS_MASTER_APB_PRDATA[0]     0.000        1.849
+lab4_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[1]     lab4_MSS_0_MSS_MASTER_APB_PRDATA[1]     0.000        1.849
+lab4_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[2]     lab4_MSS_0_MSS_MASTER_APB_PRDATA[2]     0.000        1.849
+===================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.192
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.000
+    - Clock delay at ending point:           0.000 (ideal)
+0.000
+    = Slack (critical) :                     0.192
+
+    Number of logic level(s):                0
+    Starting point:                          lab4_MSS_0.MSS_ADLIB_INST / EMCCLK
+    Ending point:                            lab4_MSS_0.MSS_ADLIB_INST / EMCCLKRTN
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                            Pin           Pin               Arrival     No. of    
+Name                          Type        Name          Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------
+lab4_MSS_0.MSS_ADLIB_INST     MSS_APB     EMCCLK        Out     0.000     0.000       -         
+MSS_ADLIB_INST_EMCCLK         Net         -             -       0.192     -           1         
+lab4_MSS_0.MSS_ADLIB_INST     MSS_APB     EMCCLKRTN     In      -         0.192       -         
+================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+

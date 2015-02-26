@@ -1,0 +1,51 @@
+waitStr:	.asciz "Handling IRQ FABINT %d\n\r"
+		.align 2
+
+@ Global variables (must be in the .data section)
+  .data
+count:	.word	0
+
+	.text
+	.syntax	unified
+	.thumb
+
+	.global Fabric_IRQHandler
+	.type Fabric_IRQHandler, %function
+
+@ Enable the IRQ
+@ Inputs: IRQ number in r0
+@ Output:
+  .global	EnableIRQ
+  .type		EnableIRQ, %function
+  EnableIRQ:
+	push	{r4,r5} @ Callee Save
+
+	@ Load NVIC_ISER (Set-Enable Registers) start address
+
+	@ Select register to modify
+
+	@ Select bit to set in the register
+
+	@ Set bit
+
+	pop   {r4,r5}
+	bx    lr
+
+@ Clear the pending the IRQ
+@ Inputs: IRQ number in r0
+@ Output:
+  .global	ClearPendingIRQ
+  .type		ClearPendingIRQ, %function
+   ClearPendingIRQ:
+	push	{r4,r5} @ Callee Save
+
+	@ Load NVIC_ICPR (Clear-Pending Registers) start address
+
+	@ Select register to modify
+
+	@ Select bit to set in the register
+
+	@ Set bit
+
+	pop   {r4,r5}
+	bx    lr

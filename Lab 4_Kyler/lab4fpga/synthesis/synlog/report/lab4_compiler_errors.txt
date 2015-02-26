@@ -1,0 +1,3 @@
+@E: CG211 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":33:8:33:9|Expecting at least one case item
+@E: CS187 :"C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\hdl\ReadSW_WriteLED.v":104:0:104:8|Expecting endmodule
+

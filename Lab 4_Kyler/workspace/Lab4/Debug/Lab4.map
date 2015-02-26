@@ -1,0 +1,359 @@
+
+Allocating common symbols
+Common symbol       size              file
+
+g_mss_uart1         0x28              ./drivers/mss_uart/mss_uart.o
+g_mss_uart0         0x28              ./drivers/mss_uart/mss_uart.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ram              0x20000000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./interrupts.o
+LOAD ./main.o
+LOAD ./printf373.o
+LOAD ./startupWithInt.o
+LOAD ./drivers/mss_uart/mss_uart.o
+LOAD ./CMSIS/system_a2fxxxm3.o
+                0x20000000                RAM_START_ADDRESS = 0x20000000
+                0x00010000                RAM_SIZE = 0x10000
+                0x00002000                MAIN_STACK_SIZE = 0x2000
+                0x20010000                __main_stack_start = (RAM_START_ADDRESS + RAM_SIZE)
+                0x20010000                STACK_TOP = __main_stack_start
+
+.text           0x20000000     0x1adc
+ *(.int_vector)
+ .int_vector    0x20000000      0x3ce ./startupWithInt.o
+                0x20000000                intVectors
+                0x20000298                Reset_Handler
+                0x2000029c                NMI_Handler
+                0x2000029e                HardFault_Handler
+                0x200002a0                MemManage_Handler
+                0x200002a2                BusFault_Handler
+                0x200002a4                UsageFault_Handler
+                0x200002a6                SVC_Handler
+                0x200002a8                DebugMon_Handler
+                0x200002aa                PendSV_Handler
+                0x200002ac                SysTick_Handler
+                0x200002ae                WdogWakeup_IRQHandler
+                0x200002b0                BrownOut_1_5V_IRQHandler
+                0x200002b2                BrownOut_3_3V_IRQHandler
+                0x200002b4                RTC_Match_IRQHandler
+                0x200002b6                RTCIF_Pub_IRQHandler
+                0x200002b8                EthernetMAC_IRQHandler
+                0x200002ba                IAP_IRQHandler
+                0x200002bc                ENVM0_IRQHandler
+                0x200002be                ENVM1_IRQHandler
+                0x200002c0                DMA_IRQHandler
+                0x200002c6                SPI0_IRQHandler
+                0x200002c8                SPI1_IRQHandler
+                0x200002ca                I2C0_IRQHandler
+                0x200002cc                I2C0_SMBAlert_IRQHandler
+                0x200002ce                I2C0_SMBus_IRQHandler
+                0x200002d0                I2C1_IRQHandler
+                0x200002d2                I2C1_SMBAlert_IRQHandler
+                0x200002d4                I2C1_SMBus_IRQHandler
+                0x200002d6                Timer1_IRQHandler
+                0x200002d8                Timer2_IRQHandler
+                0x200002da                PLL_Lock_IRQHandler
+                0x200002dc                PLL_LockLost_IRQHandler
+                0x200002de                CommError_IRQHandler
+                0x200002e2                GPIO0_IRQHandler
+                0x200002e4                GPIO1_IRQHandler
+                0x200002e6                GPIO2_IRQHandler
+                0x200002e8                GPIO3_IRQHandler
+                0x200002ea                GPIO4_IRQHandler
+                0x200002ec                GPIO5_IRQHandler
+                0x200002ee                GPIO6_IRQHandler
+                0x200002f0                GPIO7_IRQHandler
+                0x200002f2                GPIO8_IRQHandler
+                0x200002f4                GPIO9_IRQHandler
+                0x200002f6                GPIO10_IRQHandler
+                0x200002f8                GPIO11_IRQHandler
+                0x200002fa                GPIO12_IRQHandler
+                0x200002fc                GPIO13_IRQHandler
+                0x200002fe                GPIO14_IRQHandler
+                0x20000300                GPIO15_IRQHandler
+                0x20000302                GPIO16_IRQHandler
+                0x20000304                GPIO17_IRQHandler
+                0x20000306                GPIO18_IRQHandler
+                0x20000308                GPIO19_IRQHandler
+                0x2000030a                GPIO20_IRQHandler
+                0x2000030c                GPIO21_IRQHandler
+                0x2000030e                GPIO22_IRQHandler
+                0x20000310                GPIO23_IRQHandler
+                0x20000312                GPIO24_IRQHandler
+                0x20000314                GPIO25_IRQHandler
+                0x20000316                GPIO26_IRQHandler
+                0x20000318                GPIO27_IRQHandler
+                0x2000031a                GPIO28_IRQHandler
+                0x2000031c                GPIO29_IRQHandler
+                0x2000031e                GPIO30_IRQHandler
+                0x20000320                GPIO31_IRQHandler
+                0x20000322                ACE_PC0_Flag0_IRQHandler
+                0x20000324                ACE_PC0_Flag1_IRQHandler
+                0x20000326                ACE_PC0_Flag2_IRQHandler
+                0x20000328                ACE_PC0_Flag3_IRQHandler
+                0x2000032a                ACE_PC1_Flag0_IRQHandler
+                0x2000032c                ACE_PC1_Flag1_IRQHandler
+                0x2000032e                ACE_PC1_Flag2_IRQHandler
+                0x20000330                ACE_PC1_Flag3_IRQHandler
+                0x20000332                ACE_PC2_Flag0_IRQHandler
+                0x20000334                ACE_PC2_Flag1_IRQHandler
+                0x20000336                ACE_PC2_Flag2_IRQHandler
+                0x20000338                ACE_PC2_Flag3_IRQHandler
+                0x2000033a                ACE_ADC0_DataValid_IRQHandler
+                0x2000033c                ACE_ADC1_DataValid_IRQHandler
+                0x2000033e                ACE_ADC2_DataValid_IRQHandler
+                0x20000340                ACE_ADC0_CalDone_IRQHandler
+                0x20000342                ACE_ADC1_CalDone_IRQHandler
+                0x20000344                ACE_ADC2_CalDone_IRQHandler
+                0x20000346                ACE_ADC0_CalStart_IRQHandler
+                0x20000348                ACE_ADC1_CalStart_IRQHandler
+                0x2000034a                ACE_ADC2_CalStart_IRQHandler
+                0x2000034c                ACE_Comp0_Fall_IRQHandler
+                0x2000034e                ACE_Comp1_Fall_IRQHandler
+                0x20000350                ACE_Comp2_Fall_IRQHandler
+                0x20000352                ACE_Comp3_Fall_IRQHandler
+                0x20000354                ACE_Comp4_Fall_IRQHandler
+                0x20000356                ACE_Comp5_Fall_IRQHandler
+                0x20000358                ACE_Comp6_Fall_IRQHandler
+                0x2000035a                ACE_Comp7_Fall_IRQHandler
+                0x2000035c                ACE_Comp8_Fall_IRQHandler
+                0x2000035e                ACE_Comp9_Fall_IRQHandler
+                0x20000360                ACE_Comp10_Fall_IRQHandler
+                0x20000362                ACE_Comp11_Fall_IRQHandler
+                0x20000364                ACE_Comp0_Rise_IRQHandler
+                0x20000366                ACE_Comp1_Rise_IRQHandler
+                0x20000368                ACE_Comp2_Rise_IRQHandler
+                0x2000036a                ACE_Comp3_Rise_IRQHandler
+                0x2000036c                ACE_Comp4_Rise_IRQHandler
+                0x2000036e                ACE_Comp5_Rise_IRQHandler
+                0x20000370                ACE_Comp6_Rise_IRQHandler
+                0x20000372                ACE_Comp7_Rise_IRQHandler
+                0x20000374                ACE_Comp8_Rise_IRQHandler
+                0x20000376                ACE_Comp9_Rise_IRQHandler
+                0x20000378                ACE_Comp10_Rise_IRQHandler
+                0x2000037a                ACE_Comp11_Rise_IRQHandler
+                0x2000037c                ACE_ADC0_FifoFull_IRQHandler
+                0x2000037e                ACE_ADC0_FifoAFull_IRQHandler
+                0x20000380                ACE_ADC0_FifoEmpty_IRQHandler
+                0x20000382                ACE_ADC1_FifoFull_IRQHandler
+                0x20000384                ACE_ADC1_FifoAFull_IRQHandler
+                0x20000386                ACE_ADC1_FifoEmpty_IRQHandler
+                0x20000388                ACE_ADC2_FifoFull_IRQHandler
+                0x2000038a                ACE_ADC2_FifoAFull_IRQHandler
+                0x2000038c                ACE_ADC2_FifoEmpty_IRQHandler
+                0x2000038e                ACE_PPE_Flag0_IRQHandler
+                0x20000390                ACE_PPE_Flag1_IRQHandler
+                0x20000392                ACE_PPE_Flag2_IRQHandler
+                0x20000394                ACE_PPE_Flag3_IRQHandler
+                0x20000396                ACE_PPE_Flag4_IRQHandler
+                0x20000398                ACE_PPE_Flag5_IRQHandler
+                0x2000039a                ACE_PPE_Flag6_IRQHandler
+                0x2000039c                ACE_PPE_Flag7_IRQHandler
+                0x2000039e                ACE_PPE_Flag8_IRQHandler
+                0x200003a0                ACE_PPE_Flag9_IRQHandler
+                0x200003a2                ACE_PPE_Flag10_IRQHandler
+                0x200003a4                ACE_PPE_Flag11_IRQHandler
+                0x200003a6                ACE_PPE_Flag12_IRQHandler
+                0x200003a8                ACE_PPE_Flag13_IRQHandler
+                0x200003aa                ACE_PPE_Flag14_IRQHandler
+                0x200003ac                ACE_PPE_Flag15_IRQHandler
+                0x200003ae                ACE_PPE_Flag16_IRQHandler
+                0x200003b0                ACE_PPE_Flag17_IRQHandler
+                0x200003b2                ACE_PPE_Flag18_IRQHandler
+                0x200003b4                ACE_PPE_Flag19_IRQHandler
+                0x200003b6                ACE_PPE_Flag20_IRQHandler
+                0x200003b8                ACE_PPE_Flag21_IRQHandler
+                0x200003ba                ACE_PPE_Flag22_IRQHandler
+                0x200003bc                ACE_PPE_Flag23_IRQHandler
+                0x200003be                ACE_PPE_Flag24_IRQHandler
+                0x200003c0                ACE_PPE_Flag25_IRQHandler
+                0x200003c2                ACE_PPE_Flag26_IRQHandler
+                0x200003c4                ACE_PPE_Flag27_IRQHandler
+                0x200003c6                ACE_PPE_Flag28_IRQHandler
+                0x200003c8                ACE_PPE_Flag29_IRQHandler
+                0x200003ca                ACE_PPE_Flag30_IRQHandler
+                0x200003cc                ACE_PPE_Flag31_IRQHandler
+ *(.text*)
+ *fill*         0x200003ce        0x2 00
+ .text          0x200003d0       0xa8 ./interrupts.o
+                0x200003ec                Fabric_IRQHandler
+                0x20000414                EnableIRQ
+                0x20000444                ClearPendingIRQ
+ .text          0x20000478       0xe8 ./main.o
+                0x200004c8                main
+ .text          0x20000560      0x488 ./printf373.o
+                0x20000560                putchar373
+                0x20000998                printf373
+                0x200009bc                sprintf373
+ .text          0x200009e8        0x0 ./startupWithInt.o
+ .text          0x200009e8      0xee4 ./drivers/mss_uart/mss_uart.o
+                0x20000a98                MSS_UART_init
+                0x20000c9c                MSS_UART_polled_tx
+                0x20000d80                MSS_UART_polled_tx_string
+                0x20000e50                MSS_UART_irq_tx
+                0x20000f00                MSS_UART_tx_complete
+                0x20000f90                MSS_UART_get_rx
+                0x2000106c                MSS_UART_enable_irq
+                0x200010e8                MSS_UART_disable_irq
+                0x20001394                MSS_UART_set_rx_handler
+                0x2000143c                MSS_UART_set_loopback
+                0x200014ac                UART0_IRQHandler
+                0x200014d8                UART1_IRQHandler
+                0x20001504                MSS_UART_set_rxstatus_handler
+                0x20001588                MSS_UART_set_tx_handler
+                0x2000161c                MSS_UART_set_modemstatus_handler
+                0x200016a0                MSS_UART_fill_tx_fifo
+                0x20001774                MSS_UART_get_rx_status
+                0x200017f4                MSS_UART_get_modem_status
+                0x20001854                MSS_UART_get_tx_status
+ .text          0x200018cc      0x210 ./CMSIS/system_a2fxxxm3.o
+                0x200018cc                SystemInit
+                0x200018d8                SystemCoreClockUpdate
+
+.rodata         0x20001adc       0x18
+ .rodata        0x20001adc        0x8 ./printf373.o
+ .rodata        0x20001ae4       0x10 ./CMSIS/system_a2fxxxm3.o
+
+.data           0x20001af4       0x1c
+ .data          0x20001af4        0x4 ./interrupts.o
+ .data          0x20001af8        0x0 ./main.o
+ .data          0x20001af8        0x0 ./printf373.o
+ .data          0x20001af8        0x0 ./startupWithInt.o
+ .data          0x20001af8        0x0 ./drivers/mss_uart/mss_uart.o
+ .data          0x20001af8       0x18 ./CMSIS/system_a2fxxxm3.o
+                0x20001af8                SystemFrequency
+                0x20001afc                SystemCoreClock
+                0x20001b00                g_FrequencyPCLK0
+                0x20001b04                g_FrequencyPCLK1
+                0x20001b08                g_FrequencyACE
+                0x20001b0c                g_FrequencyFPGA
+
+.glue_7         0x20001b10        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x20001b10        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x20001b10        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x20001b10        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.bss            0x20001b10       0x50
+ .bss           0x20001b10        0x0 ./interrupts.o
+ .bss           0x20001b10        0x0 ./main.o
+ .bss           0x20001b10        0x0 ./printf373.o
+ .bss           0x20001b10        0x0 ./startupWithInt.o
+ .bss           0x20001b10        0x0 ./drivers/mss_uart/mss_uart.o
+ COMMON         0x20001b10       0x50 ./drivers/mss_uart/mss_uart.o
+                0x20001b10                g_mss_uart1
+                0x20001b38                g_mss_uart0
+ .bss           0x20001b60        0x0 ./CMSIS/system_a2fxxxm3.o
+
+.stack          0x20001b60     0x2000
+                0x20001b60                . = ALIGN (0x4)
+                0x20003b60                . = (. + MAIN_STACK_SIZE)
+ *fill*         0x20001b60     0x2000 00
+                0x20003b60                end = .
+OUTPUT(Lab4 elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x2d
+ .ARM.attributes
+                0x00000000       0x21 ./interrupts.o
+ .ARM.attributes
+                0x00000021       0x21 ./main.o
+ .ARM.attributes
+                0x00000042       0x31 ./printf373.o
+ .ARM.attributes
+                0x00000073       0x21 ./startupWithInt.o
+ .ARM.attributes
+                0x00000094       0x31 ./drivers/mss_uart/mss_uart.o
+ .ARM.attributes
+                0x000000c5       0x31 ./CMSIS/system_a2fxxxm3.o
+
+.comment        0x00000000       0x81
+ .comment       0x00000000       0x2b ./printf373.o
+ .comment       0x0000002b       0x2b ./drivers/mss_uart/mss_uart.o
+ .comment       0x00000056       0x2b ./CMSIS/system_a2fxxxm3.o
+
+.debug_line     0x00000000      0xac6
+ .debug_line    0x00000000       0x6d ./interrupts.o
+ .debug_line    0x0000006d       0x64 ./main.o
+ .debug_line    0x000000d1      0x23b ./printf373.o
+ .debug_line    0x0000030c       0xdf ./startupWithInt.o
+ .debug_line    0x000003eb      0x469 ./drivers/mss_uart/mss_uart.o
+ .debug_line    0x00000854      0x272 ./CMSIS/system_a2fxxxm3.o
+
+.debug_info     0x00000000     0x2955
+ .debug_info    0x00000000       0x5d ./interrupts.o
+ .debug_info    0x0000005d       0x57 ./main.o
+ .debug_info    0x000000b4      0xda0 ./printf373.o
+ .debug_info    0x00000e54       0x61 ./startupWithInt.o
+ .debug_info    0x00000eb5     0x15a0 ./drivers/mss_uart/mss_uart.o
+ .debug_info    0x00002455      0x500 ./CMSIS/system_a2fxxxm3.o
+
+.debug_abbrev   0x00000000      0x578
+ .debug_abbrev  0x00000000       0x14 ./interrupts.o
+ .debug_abbrev  0x00000014       0x14 ./main.o
+ .debug_abbrev  0x00000028      0x1ea ./printf373.o
+ .debug_abbrev  0x00000212       0x14 ./startupWithInt.o
+ .debug_abbrev  0x00000226      0x243 ./drivers/mss_uart/mss_uart.o
+ .debug_abbrev  0x00000469      0x10f ./CMSIS/system_a2fxxxm3.o
+
+.debug_aranges  0x00000000       0xc0
+ .debug_aranges
+                0x00000000       0x20 ./interrupts.o
+ .debug_aranges
+                0x00000020       0x20 ./main.o
+ .debug_aranges
+                0x00000040       0x20 ./printf373.o
+ .debug_aranges
+                0x00000060       0x20 ./startupWithInt.o
+ .debug_aranges
+                0x00000080       0x20 ./drivers/mss_uart/mss_uart.o
+ .debug_aranges
+                0x000000a0       0x20 ./CMSIS/system_a2fxxxm3.o
+
+.debug_macinfo  0x00000000    0x11b2e
+ .debug_macinfo
+                0x00000000     0x5d7e ./printf373.o
+ .debug_macinfo
+                0x00005d7e     0x63ca ./drivers/mss_uart/mss_uart.o
+ .debug_macinfo
+                0x0000c148     0x59e6 ./CMSIS/system_a2fxxxm3.o
+
+.debug_loc      0x00000000      0x739
+ .debug_loc     0x00000000      0x190 ./printf373.o
+ .debug_loc     0x00000190      0x510 ./drivers/mss_uart/mss_uart.o
+ .debug_loc     0x000006a0       0x99 ./CMSIS/system_a2fxxxm3.o
+
+.debug_pubnames
+                0x00000000      0x30e
+ .debug_pubnames
+                0x00000000       0x3e ./printf373.o
+ .debug_pubnames
+                0x0000003e      0x21c ./drivers/mss_uart/mss_uart.o
+ .debug_pubnames
+                0x0000025a       0xb4 ./CMSIS/system_a2fxxxm3.o
+
+.debug_str      0x00000000     0x153f
+ .debug_str     0x00000000      0xe29 ./printf373.o
+                                0xea9 (size before relaxing)
+ .debug_str     0x00000e29      0x628 ./drivers/mss_uart/mss_uart.o
+                               0x1475 (size before relaxing)
+ .debug_str     0x00001451       0xee ./CMSIS/system_a2fxxxm3.o
+                                0x408 (size before relaxing)
+
+.debug_frame    0x00000000      0x460
+ .debug_frame   0x00000000      0x118 ./printf373.o
+ .debug_frame   0x00000118      0x2e4 ./drivers/mss_uart/mss_uart.o
+ .debug_frame   0x000003fc       0x64 ./CMSIS/system_a2fxxxm3.o
