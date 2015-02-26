@@ -1,0 +1,48 @@
+LAB 4
+Kyler Fillerup
+Casey Nordgran
+
+
+QUESTION 1:
+In Lab 3, you had two modules attached to the APB3 bus. What is the difference in bytes
+between the memory mapped addresses of the two modules? (Hint: Use the Modify Memory Map function
+in Libero)
+
+	Each module on the bus is allocated 256 bytes. 
+
+
+QUESTION 2:
+Look inside ReadSW WriteLED.v. What input wires/variable determines which register (led
+or sw) are accessed? What is connected to bus addr in the wrapper? Why do we only use bit 3 and 2 of
+the PADDR?
+
+	The bus_addr[3:2] determine if it is a read from the switches or a write to the led. 
+	PADDR is connected to the bus_addr  in the wrapper. We only need the address bits of [3:2]
+	because they are the bits that determine if it is the led or the switches that are being accessed. 
+	0x40050000 for the led and 0x40050004 differ by the bits in position 2. 
+
+Question 3: Explain in a few sentences how this block synchronizes the input switch. 
+	always@(posedge clk)
+	begin
+		sw0_pulse[0] <= ~sw_port[0];
+		sw0_pulse[1] <= sw0_pulse[0];
+		sw0_pulse[2] <= sw0_pulse[1];
+	end
+
+	This block of code synchronizes the switches by latching them into a 3 bit register. 
+	When a button is pressed the switch value is inverted and then latched into the zero bit of the
+	pulse register. Then on each consecutive clock tic the the switch value is latched into the next 
+	bit position. This allows the switch input to be synchronized with the clock.
+ 
+Question 4: Why is the switch input inverted? 
+
+	The switch input is inverted so that once 
+
+Question 5: What happens if the sw port[0] pulse is shorter than one PCLK period?
+
+	If the pulse is shorter than one clock period it wont be latched into the pulse register. 
+
+Question 6: How does this code solve the shorter than one PCLK period sw port[x] pulse problem?
+
+	The modified code solves the shorter than one pclk period by adding the negedge sw[0] to the 
+	blocks sensitivity list. This enables the switch change to be latched before one full clk period.

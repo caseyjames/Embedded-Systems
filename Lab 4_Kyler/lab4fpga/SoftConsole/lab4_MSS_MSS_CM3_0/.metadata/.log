@@ -1,0 +1,23 @@
+!SESSION 2015-02-23 14:27:30.883 -----------------------------------------------
+eclipse.buildId=M20101209-1200
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -application org.eclipse.cdt.managedbuilder.core.headlessbuild -import C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\SoftConsole\lab4_MSS_MSS_CM3_0\projects\lab4_MSS_MSS_CM3_0_hw_platform
+Command-line arguments:  -os win32 -ws win32 -arch x86 -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data C:/Users/Kyler/Desktop/Spring 2015/ECE 5780/Embedded-Systems/Lab 4_Kyler/lab4fpga/SoftConsole/lab4_MSS_MSS_CM3_0 -import C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\SoftConsole\lab4_MSS_MSS_CM3_0\projects\lab4_MSS_MSS_CM3_0_hw_platform
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-23 14:27:42.150
+!MESSAGE Indexed 'lab4_MSS_MSS_CM3_0_hw_platform' (16 sources, 55 headers) in 2.97 sec: 3,914 declarations; 7,647 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.01%)
+!SESSION 2015-02-23 14:27:43.650 -----------------------------------------------
+eclipse.buildId=M20101209-1200
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -application org.eclipse.cdt.managedbuilder.core.headlessbuild -import C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\SoftConsole\lab4_MSS_MSS_CM3_0\projects\lab4_MSS_MSS_CM3_0_app
+Command-line arguments:  -os win32 -ws win32 -arch x86 -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data C:/Users/Kyler/Desktop/Spring 2015/ECE 5780/Embedded-Systems/Lab 4_Kyler/lab4fpga/SoftConsole/lab4_MSS_MSS_CM3_0 -import C:\Users\Kyler\Desktop\Spring 2015\ECE 5780\Embedded-Systems\Lab 4_Kyler\lab4fpga\SoftConsole\lab4_MSS_MSS_CM3_0\projects\lab4_MSS_MSS_CM3_0_app
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-02-23 14:27:47.339
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-23 14:27:51.106
+!MESSAGE Indexed 'lab4_MSS_MSS_CM3_0_app' (1 sources, 8 headers) in 0.56 sec: 1 declarations; 0 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
